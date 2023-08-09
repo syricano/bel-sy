@@ -27,6 +27,8 @@ header {
 main {
 
     background-color: rgba(218, 68, 13, 0.623);
+    /* make main expand to ta to push footer down*/
+    flex: 1 0 auto;
 }
 
 
