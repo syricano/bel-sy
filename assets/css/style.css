@@ -12,7 +12,7 @@ body {
     display: flex;
     flex-direction: column;
     /* General Project style*/
-    color: whitesmoke;
+    color: rgb(248, 247, 247);
 
 }
 /*Header Style*/
@@ -32,5 +32,5 @@ main {
 
 /*Footer Style*/
 footer {
-    background-color: rgb(245, 215, 177);
+    background-color: rgb(245, 172, 70);
 }
