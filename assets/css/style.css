@@ -20,7 +20,7 @@ body {
     display: flex;
     flex-direction: column;
     /* General Project style*/
-    color: rgb(248, 247, 247);
+    color: white;
     font-family: 'Lato', sans-serif;
   
 }
@@ -37,7 +37,7 @@ header {
 /*Main Style*/
 main {
 
-    background-color: rgba(218, 68, 13, 0.623);
+    background-color: rgba(220, 70, 10, 0.6);
     /* make main expand to ta to push footer down*/
     flex: 1 0 auto;
 }
@@ -45,5 +45,5 @@ main {
 
 /*Footer Style*/
 footer {
-    background-color: rgb(245, 172, 70);
+    background-color: rgb(250, 170, 70);
 }
