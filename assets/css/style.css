@@ -23,13 +23,14 @@ body {
 
 /*Header Style*/
 header {
-    background-color: rgba(0, 0, 0, 0.3);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(0, 0, 0, 0.6);
+    font-family: cursive, sans-serif;
     padding: 5px;
     position: fixed;
     z-index: 99;
     width: 100%;
-    /* Style to get ride of */
+    /* Style to get rid of space between header and main*/
+    height: 10rem;
     /* box-shadow: 0 2px 2px rgba(0, 0, 0, 0.6); */
     /*
     display: flex; */
@@ -69,7 +70,7 @@ a {
     text-decoration: none;
     font-size: 110;
     text-transform: uppercase;
-    z-index: 999 !important;
+    z-index: 999 /*!important*/;
 
 
 }
@@ -83,17 +84,18 @@ a {
 }
 
 /* active style*/
-.active {
-    /*  border-bottom: 2px solid white;*/
-}
+/*.active {
+      border-bottom: 2px solid white;
+}*/
 
 /*Nav Style*/
 nav {
     position: absolute;
     width: 100%;
     left: 0;
+    top: 2rem;
     padding: 0 1rem;
-    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.6);
+    /*box-shadow: 0 2px 2px rgba(0, 0, 0, 0.6); */
     /*display: none;*/
     /*top: 100%;*/
     transition: all 0.3s ease-in-out;
@@ -188,7 +190,8 @@ main {
             background-color: rgba(220, 70, 10, 0.6);
             /* make main expand to ta to push footer down*/
             flex: 1 0 auto;
-            margin-top: 135px;
+            /*style to get rid of space with header*/
+            margin-top: 160px;
 }
 
 
