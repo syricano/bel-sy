@@ -102,3 +102,38 @@ main {
 footer {
     background-color: rgb(250, 170, 70);
 }
+
+
+
+
+/* mediaquery :tablets larger then 768 px and up*/
+@media screen and (min-width:768px) {
+    /* Header*/
+    nav {
+        display: flex;
+        position:relative;
+        width: fit-content;
+        padding-left: 1rem;
+
+    }
+    header {
+        text-align: center;
+    }
+    .nav-toggle-lable { display: none;}
+    .nav-list {
+        display: flex;
+        letter-spacing: normal;
+        margin: 5px;
+    }
+    header div {
+        align-items: center;
+        
+    }
+    .nav-list li {
+        padding-left: 2rem;
+        font-size: small;
+        font-weight: bold;
+    }
+    
+    
+}
