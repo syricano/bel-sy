@@ -90,7 +90,7 @@ a {
 
 /*Nav Style*/
 nav {
-    position: absolute;
+    position: sticky;
     width: 100%;
     left: 0;
     top: 2rem;
