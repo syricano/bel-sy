@@ -193,6 +193,9 @@ main {
             justify-content: space-evenly;
             
             background-color: rgba(220, 70, 10, 0.6);
+            /*the image was downloaded from Adobe.com*/
+            background-image: url(/assets/images/AdobeStock_111479179_Preview.jpeg) ;
+            background-repeat: no-repeat;
             /* make main expand to ta to push footer down*/
             flex: 1 0 auto;
             /*style to get rid of space with header*/
