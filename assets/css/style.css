@@ -85,7 +85,7 @@ nav {
 #nav-toggle{
     display: none;
 }
-.nav-toggle-lable {
+.nav-toggle-label {
     font-size: 2rem;
 }
 /*Main Style*/
@@ -106,7 +106,7 @@ footer {
 
 
 
-/* mediaquery :tablets larger then 768 px and up*/
+/* media-query :tablets larger then 768 px and up*/
 @media screen and (min-width:768px) {
     /* Header*/
     nav {
@@ -119,13 +119,14 @@ footer {
     header {
         text-align: center;
     }
-    .nav-toggle-lable { display: none;}
+    .nav-toggle-label { display: none;}
     .nav-list {
         display: flex;
         letter-spacing: normal;
         margin: 5px;
     }
     header div {
+        display: flex;
         align-items: center;
         
     }
