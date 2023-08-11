@@ -194,9 +194,9 @@ main {
             
             background-color: rgba(220, 70, 10, 0.6);
             /*the image was downloaded from Adobe.com*/
-            background-image: url(/assets/images/background.jpg) ;
+            background-image: url(/assets/images/AdobeStock_89046465_Preview.jpeg) ;
             
-            background-repeat: nrepeat;
+            background-repeat: repeat;
             background-size: 100%;
             /* make main expand to ta to push footer down*/
             flex: 1 0 auto;
