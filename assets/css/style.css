@@ -41,7 +41,7 @@ nav a {
 }
 
 /* Nav list style to remove the bullet points*/
-#nav-list {
+.nav-list {
     list-style-type: none;
     letter-spacing: 4px;
 
