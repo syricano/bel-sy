@@ -8,6 +8,10 @@
     box-sizing: border-box;
 
 }
+:root {
+    --color-primary:#FFA500 ;
+    --color-secondary:rgba(0, 0, 0, 0.6);
+}
 
 /* General style*/
 body {
@@ -103,6 +107,7 @@ nav {
     z-index: -991;
     opacity: 0;
     color: transparent;
+    background-color:var(--color-secondary);
 
 
 }
