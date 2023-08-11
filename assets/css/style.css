@@ -194,14 +194,22 @@ main {
             
             background-color: rgba(220, 70, 10, 0.6);
             /*the image was downloaded from Adobe.com*/
-            background-image: url(/assets/images/AdobeStock_111479179_Preview.jpeg) ;
-            background-repeat: no-repeat;
+            background-image: url(/assets/images/background.jpg) ;
+            
+            background-repeat: nrepeat;
+            background-size: 100%;
             /* make main expand to ta to push footer down*/
             flex: 1 0 auto;
             /*style to get rid of space with header*/
             margin-top: 160px;
 }
-
+.about {
+    font-size: small;
+   
+}
+.logo-image {
+    border: 2px solid black;
+}
 
 /*Footer Style*/
 footer {
