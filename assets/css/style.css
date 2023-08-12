@@ -29,7 +29,6 @@ body {
 header {
     background-color: rgba(0, 0, 0, 0.6);
     font-family: cursive, sans-serif;
-    padding: 5px;
     position: fixed;
     z-index: 99;
     width: 100%;
@@ -213,7 +212,10 @@ main {
 
 /*Footer Style*/
 footer {
-    background-color: rgb(250, 170, 70);
+        position: absolute;
+        background-color: rgb(250, 170, 70);
+        top: 100%;
+        bottom: 0;
 }
 
 
