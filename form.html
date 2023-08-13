@@ -58,12 +58,12 @@
         <section id="feedback">
             <h3>How did you enjoy your visit?</h3>
             <div class="feedback-div">
-                <form method="post" name="feedback" action="index.html">
+                <form method="get" name="feedback" action="index.html">
                     <label for="name">Your Name</label>
                     <input type="text" id="name" name="feedback" placeholder="Your Name here">
                    
                     <label for="email">Your E-mail</label>
-                    <input type="text" id="email" name="feedback" placeholder="Your E-mail here">
+                    <input type="email" id="email" name="feedback" placeholder="Your E-mail here">
                    
                     <label for="unsatisfied">unsatisfied</label>
                     <input id="unsatisfied" type="radio" name="feedback">
@@ -81,7 +81,7 @@
                     <textarea id="feedback" name="feedback" value="feedback" placeholder="leave your comment here" cols="20" rows="20">
 
                     </textarea>
-                    <button type="submit" value="reset" name="feedback">Submit your Feedback
+                    <button type="submit" value="submit" name="feedback">Submit your Feedback
                     </button>
 
                 </form>
