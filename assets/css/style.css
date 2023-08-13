@@ -220,12 +220,12 @@ main {
 
 /******************** Bookings Style************************/
 
-booking-div {
+.booking-div {
          display: flow;
           position: relative;
 }
 
-#booking > label {
+#booking label {
         padding: 35px 15px;
             margin: 5px;
             display: flex;
