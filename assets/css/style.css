@@ -8,9 +8,10 @@
     box-sizing: border-box;
 
 }
+
 :root {
-    --color-primary:#FFA500 ;
-    --color-secondary:rgba(0, 0, 0, 0.6);
+    --color-primary: #FFA500;
+    --color-secondary: rgba(0, 0, 0, 0.6);
 }
 
 /* General style*/
@@ -40,9 +41,7 @@ header {
     justify-content: space-between;
     align-items: baseline;
     /*z-index: 999 !important;*/
-    top:0
-
-
+    top: 0
 }
 
 /* Style the Header container*/
@@ -57,11 +56,12 @@ header h1 {
     font-size: x-large;
     font-weight: bold;
     text-align: center;
-    
-    
+
+
 
 
 }
+
 header p {
     text-align: center;
     font-size: small;
@@ -74,7 +74,9 @@ a {
     text-decoration: none;
     font-size: 110;
     text-transform: uppercase;
-    z-index: 999 /*!important*/;
+    z-index: 999
+        /*!important*/
+    ;
 
 
 }
@@ -107,7 +109,7 @@ nav {
     z-index: -991;
     opacity: 0;
     color: transparent;
-    background-color:var(--color-secondary);
+    background-color: var(--color-secondary);
 
 
 }
@@ -189,34 +191,38 @@ span.bar::after {
 /*Main Style*/
 main {
 
-            display: grid;
-            justify-content: space-evenly;
-            
-            background-color: rgba(220, 70, 10, 0.6);
-            /*the image was downloaded from Adobe.com*/
-            background-image: url(/assets/images/AdobeStock_89046465_Preview.jpeg) ;
-            
-            background-repeat: repeat;
-            background-size: 100%;
-            /* make main expand to ta to push footer down*/
-            flex: 1 0 auto;
-            /*style to get rid of space with header*/
-            margin-top: 160px;
+    display: grid;
+    justify-content: space-evenly;
+
+    background-color: rgba(220, 70, 10, 0.6);
+    /*the image was downloaded from Adobe.com*/
+    background-image: url(/assets/images/AdobeStock_89046465_Preview.jpeg);
+
+    background-repeat: repeat;
+    background-size: 100%;
+    /*to get rid of the img edg text from img source*/
+    background-position: -50px;
+    /* make main expand to ta to push footer down*/
+    flex: 1 0 auto;
+    /*style to get rid of space with header*/
+    margin-top: 160px;
 }
+
 .about {
     background-color: var(--color-secondary);
-   
+
 }
+
 .logo-image {
     border: 2px solid black;
 }
 
 /*Footer Style*/
 footer {
-        position: absolute;
-        background-color: rgb(250, 170, 70);
-        top: 100%;
-        bottom: 0;
+    position: relative;
+    background-color: rgb(250, 170, 70);
+    top: 100%;
+    bottom: 0;
 }
 
 
@@ -238,9 +244,11 @@ footer {
     header {
         text-align: center;
     }
+
     header h1 {
         font-size: xx-large;
     }
+
     header p {
         font-size: large;
     }
