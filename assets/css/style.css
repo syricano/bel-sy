@@ -237,7 +237,16 @@ main {
 
 
 /******************** Feedback ******************************/
-
+.feedback-div {
+        display: grid;
+            position: relative;
+            margin: 5px;
+            padding: 5px;
+            border: 5px solid var(--color-secondary);
+}
+#feedback form {
+    display: grid;
+}
 
 /*Footer Style*/
 footer {

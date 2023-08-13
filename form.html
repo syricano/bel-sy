@@ -54,7 +54,35 @@
       </nav>
     </header>
     <!--Main-->
-    <main>Feedback</main>
+    <main>
+        <section id="feedback">
+            <h3>How did you enjoy your visit?</h3>
+            <div class="feedback-div">
+                <form method="post" action="index.html">
+                    <label for="name">Your Name</label>
+                    <input id="name" type="text" placeholder="Your Name here">
+                    <label for="name">Your E-mail</label>
+                    <input id="email" type="text" placeholder="Your E-mail here">
+                    <label for="unsatisfied">unsatisfied</label>
+                    <input type="radio" value="unsatisfied">
+                    <label for="somehow-satisfied">somehow satisfied</label>
+                    <input type="radio" value="somehow-satisfied">
+                    <label for="satisfied">satisfied</label>
+                    <input type="radio" value="satisfied">
+                    <label for="very-satisfied">Very satisfied</label>
+                    <input type="radio" value="very-satisfied">
+                    <textarea type="text" id="comment" placeholder="leave your comment here" cols="20" rows="10">
+
+                    </textarea>
+                    <button type="submit" value="reset">Submit your Feedback
+                    </button>
+
+                </form>
+            </div>
+
+
+        </section>
+    </main>
     <!--footer-->
         <footer>
             <!--footer paragraph-->
