@@ -58,23 +58,30 @@
         <section id="feedback">
             <h3>How did you enjoy your visit?</h3>
             <div class="feedback-div">
-                <form method="post" action="index.html">
+                <form method="post" name="feedback" action="index.html">
                     <label for="name">Your Name</label>
-                    <input id="name" type="text" placeholder="Your Name here">
-                    <label for="name">Your E-mail</label>
-                    <input id="email" type="text" placeholder="Your E-mail here">
+                    <input type="text" id="name" name="feedback" placeholder="Your Name here">
+                   
+                    <label for="email">Your E-mail</label>
+                    <input type="text" id="email" name="feedback" placeholder="Your E-mail here">
+                   
                     <label for="unsatisfied">unsatisfied</label>
-                    <input type="radio" value="unsatisfied">
+                    <input id="unsatisfied" type="radio" name="feedback">
+                   
                     <label for="somehow-satisfied">somehow satisfied</label>
-                    <input type="radio" value="somehow-satisfied">
+                    <input id="somehow-satisfied" type="radio" name="feedback">
+                   
                     <label for="satisfied">satisfied</label>
-                    <input type="radio" value="satisfied">
+                    <input id="satisfied" type="radio" name="feedback">
+                   
                     <label for="very-satisfied">Very satisfied</label>
-                    <input type="radio" value="very-satisfied">
-                    <textarea type="text" id="comment" placeholder="leave your comment here" cols="20" rows="10">
+                    <input id="very-satisfied" type="radio" name="feedback">
+                   
+                    <label for="feedback" value="feedback" >What did you like/dislike</label>
+                    <textarea id="feedback" name="feedback" value="feedback" placeholder="leave your comment here" cols="20" rows="20">
 
                     </textarea>
-                    <button type="submit" value="reset">Submit your Feedback
+                    <button type="submit" value="reset" name="feedback">Submit your Feedback
                     </button>
 
                 </form>
