@@ -116,12 +116,13 @@ nav {
 
 /* Style the Nav Bar show hide span*/
 
-label {
+.nav-toggle-label {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 25px;
     height: 25px;
+    font-size: 2rem;
 }
 
 span.bar {
@@ -184,9 +185,7 @@ span.bar::after {
     display: none;
 }
 
-.nav-toggle-label {
-    font-size: 2rem;
-}
+
 
 /*Main Style*/
 main {
@@ -216,6 +215,28 @@ main {
 .logo-image {
     border: 2px solid black;
 }
+
+
+
+/******************** Bookings Style************************/
+
+booking-div {
+         display: flow;
+          position: relative;
+}
+
+#booking > label {
+        padding: 35px 15px;
+            margin: 5px;
+            display: flex;
+            width: 270px;
+            height: 25px;
+            font-weight: bold;
+}
+
+
+
+/******************** Feedback ******************************/
 
 
 /*Footer Style*/

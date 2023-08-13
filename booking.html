@@ -35,7 +35,11 @@
       </div>
       <!--checkbox for nav toggle element-->
       <input type="checkbox" id="nav-toggle" name="nav-toggle" />
-      <label for="nav-toggle" class="nav-toggle-label">X</label>
+      <label for="nav-toggle" class="nav-toggle-label">
+        <!--Nav Bar menu show/hide icon-->
+        <!--<i class="fa-light fa-bars"></i> -->
+        <span class="bar"></span>
+      </label>
 
       <!--Nav element as a list to home,about us, bookings,feedback and contact -->
       <nav>
@@ -50,25 +54,36 @@
     </header>
     <!--Main-->
     <main>
-        <section>
-            <div>
+        <section id="booking">
+            <div class="booking-div">
                 <h3>
                     Request a Table
                 </h3>
-               <form method="get">
-                <label>First Name</label>
-                <input id="booking-firstname" type="text" class="input-item">
-                <hr>
-                <label>Last Name</label>
-                <input id="booking-lastname" type="text" class="input-item">
-                <hr>
-                <label>Phone Number</label>
-                <input id="booking-phone" type="text" class="input-item">
-                <hr>
-                <label>E-Mail:</label>
-                <input id="booking-email" type="text" class="input-item">
-                <hr>
-                <label>Number of guests:</label>
+               <form method="get" action="index.html">
+                <label>First Name:</label>
+                <input type="text">
+                <label>Last Name:</label>
+                <input type="text">
+                <label>Phone Number:</label>
+                <input type="text">
+                <label>E-mail:</label>
+                <input type="text">
+                <label>Number of Guests</label>
+                <select>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                </select>
+                <input type="datetime-local" aria-label=" chose date and time">
+                <input type="submit">
+     
 
                </form>
             </div>
