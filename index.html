@@ -1,284 +1,276 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!------------Meta Tags for search engines-------------->
-    <meta
-      name="description"
-      content="Bel'Sy Syrian cuisine & Restaurant, Dine-in restaurant in Tournai Belgium. Health food for vegan and omnivores."
-    />
-    <meta
-      name="keywords"
-      content=" Syrian cuisine, vegan, vegetarian, healthy food, Dine-in, diets, desserts, tournai, belgium"
-    />
 
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="Anass Muhammad Ali" />
-    <!--title-->
-    <title>Bel'Sy Restaurant</title>
-    <!--favicon is to be added in later stage, because i tried to do it but
+<head>
+  <!------------Meta Tags for search engines-------------->
+  <meta name="description"
+    content="Bel'Sy Syrian cuisine & Restaurant, Dine-in restaurant in Tournai Belgium. Health food for vegan and omnivores." />
+  <meta name="keywords"
+    content=" Syrian cuisine, vegan, vegetarian, healthy food, Dine-in, diets, desserts, tournai, belgium" />
+
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Anass Muhammad Ali" />
+  <!--title-->
+  <title>Bel'Sy Restaurant</title>
+  <!--favicon is to be added in later stage, because i tried to do it but
                  it did not work for unknown reason-->
-    <link rel="stylesheet" href="assets/css/style.css" />
-  </head>
-  <body>
-    <!-- Header-->
-    <header>
-      <div class="header-container">
-        <!--header h1 created-->
-        <h1 class="Logo">
-          <a href="index.html"> Bel'Sy Restaurant </a>
-        </h1>
-        <!--header paragraph-->
-        <p>The unique Syrian cuisine located in Belgium ( Tournai)</p>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+  <!-- Header-->
+  <header>
+    <div class="header-container">
+      <!--header h1 created-->
+      <h1 class="Logo">
+        <a href="index.html"> Bel'Sy Restaurant </a>
+      </h1>
+      <!--header paragraph-->
+      <p>The unique Syrian cuisine located in Belgium ( Tournai)</p>
+    </div>
+    <!--checkbox for nav toggle element-->
+    <input type="checkbox" id="nav-toggle" name="nav-toggle" />
+    <label for="nav-toggle" class="nav-toggle-label">
+      <!--Nav Bar menu show/hide icon-->
+      <!--<i class="fa-light fa-bars"></i> -->
+      <span class="bar"></span>
+    </label>
+
+    <!--Nav element as a list to home,about us, bookings,feedback and contact -->
+    <nav>
+      <ul class="nav-list">
+        <!--aria label added for special needs users-->
+        <li>
+          <a href="#home" class="active" aria-label="go to about us section">Home</a>
+        </li>
+        <li><a href="#menu" aria-label="go to menu section">Menu</a></li>
+        <li>
+          <a href="booking.html" aria-label="go to bookings">Bookings</a>
+        </li>
+        <li><a href="form.html" aria-label="go to feedback ">Feedback</a></li>
+        <li>
+          <a href="/index.html#contact" aria-label="go to contact section">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <!--Main content divided into 3 sections-->
+  <main>
+    <!--Home section number 1-->
+    <section>
+      <!--about us section-->
+
+      <div class="about">
+        <!--about us header-->
+        <h3>About us</h3>
+        <!--about us paragraph-->
+        <p>
+          We've started our restaurant Bel'Sy back in 2021. Our Chefs has a
+          diploma from the Belgian Canteen Association. He mixed his study
+          with his background cultural oriental cuisine and came up with very
+          delicious dishes that is now favoured by our most guests
+        </p>
       </div>
-      <!--checkbox for nav toggle element-->
-      <input type="checkbox" id="nav-toggle" name="nav-toggle" />
-      <label for="nav-toggle" class="nav-toggle-label">
-        <!--Nav Bar menu show/hide icon-->
-        <!--<i class="fa-light fa-bars"></i> -->
-        <span class="bar"></span>
-      </label>
+      <!--logo image div-->
 
-      <!--Nav element as a list to home,about us, bookings,feedback and contact -->
-      <nav>
-        <ul class="nav-list">
-          <!--aria label added for special needs users-->
-          <li>
-            <a href="#home" class="active" aria-label="go to about us section"
-              >Home</a
-            >
-          </li>
-          <li><a href="#menu" aria-label="go to menu section">Menu</a></li>
-          <li>
-            <a href="booking.html" aria-label="go to bookings">Bookings</a>
-          </li>
-          <li><a href="form.html" aria-label="go to feedback ">Feedback</a></li>
-          <li>
-            <a href="/index.html#contact" aria-label="go to contact section">Contact</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
+      </div>
+    </section>
 
-    <!--Main content divided into 3 sections-->
-    <main>
-      <!--Home section number 1-->
-      <section>
-        <!--about us section-->
-
-        <div class="about">
-          <!--about us header-->
-          <h3>About us</h3>
-          <!--about us paragraph-->
-          <p>
-            We've started our restaurant Bel'Sy back in 2021. Our Chefs has a
-            diploma from the Belgian Canteen Association. He mixed his study
-            with his background cultural oriental cuisine and came up with very
-            delicious dishes that is now favoured by our most guests
-          </p>
-        </div>
-        <!--logo image div-->
+    <!--menu section number 2-->
+    <section>
+      <div class="gallary">
         <div>
-          <img class="menu-images"
-            class="logo-image"
-            src="assets/images/tabels.jpg"
-            width="375rem"
-            alt="inside restaurant"
-          />
+          <img class="menu-images" class="logo-image" src="assets/images/tabels.jpg" width="375rem"
+            alt="inside restaurant" />
+          <div>
+            <img class="menu-images" src="assets/images/proushur.jpg" width="375rem" alt="menu image">
+          </div>
+          <div>
+            <img class="menu-images" src="assets/images/meat with freki.jpg" width="375rem" alt="Frekeh">
+          </div>
+          <div>
+            <img class="menu-images" src="assets/images/desserts.jpg" width="375rem" alt="desserts">
+          </div>
         </div>
-      </section>
 
-      <!--menu section number 2-->
-      <section>
-             <div >
-                <div>
-                    <img class="menu-images" src="assets/images/proushur.jpg" width="375rem" alt="menu image">
-                </div>
-                <div>
-                    <img class="menu-images" src="assets/images/meat with freki.jpg" width="375rem" alt="Frekeh">
-                </div>
-                <div>
-                    <img class="menu-images" src="assets/images/desserts.jpg" width="375rem" alt="desserts">
-                </div>
-
-                <h3 id="menu">Menu</h3>
-                <!--img div-->
-             
-
-                <!--Appetizers list-->
-                <div class="padding-left">
-                    <h4>Appetizers</h4>
-                    <ul class="menu-list">
-                        <li>Fatteh</li>
-                        <li>Salad</li>
-                        <li>Hummus</li>
-                        <li>Muttabbal</li>
-                        <li>Hallomi</li>
-                        <li>Makdus</li>
-                        <li>Muhammara</li>
-                        <li>French Fries</li>
-                    </ul>
+        <h3 id="menu">Menu</h3>
+        <!--img div-->
 
 
-                </div>
-
-                <!--Main course meals list-->
-                <div class="padding-left">
-                    <h4>Main Course Meals</h4>
-                    <ul class="menu-list">
-                            <li>Fish Plate</li>
-                            <li>Kebbi</li>
-                            <li>Frekeh
-                                <ol>
-                                    <li>with chicken</li>
-                                    <li>with sheep meat</li>
-                                    <li>with beef meat </li>
-                                </ol>
-                            
-                            </li>
-                            <li>Rice
-                                <ol>
-                                    <li>with chicken</li>
-                                    <li>with sheep meat</li>
-                                    <li>with beef meat </li>
-                                </ol>
-                            
-                            </li>
-                            <li>Meat with Cherry</li>
-                            <li>Falafel</li>
-                            <li>Salmon</li>
+        <!--Appetizers list-->
+        <div class="padding-left">
+          <h4>Appetizers</h4>
+          <ul class="menu-list">
+            <li>Fatteh</li>
+            <li>Salad</li>
+            <li>Hummus</li>
+            <li>Muttabbal</li>
+            <li>Hallomi</li>
+            <li>Makdus</li>
+            <li>Muhammara</li>
+            <li>French Fries</li>
+          </ul>
 
 
-                    </ul>
+        </div>
+
+        <!--Main course meals list-->
+        <div class="padding-left">
+          <h4>Main Course Meals</h4>
+          <ul class="menu-list">
+            <li>Fish Plate</li>
+            <li>Kebbi</li>
+            <li>Frekeh
+              <ol>
+                <li>with chicken</li>
+                <li>with sheep meat</li>
+                <li>with beef meat </li>
+              </ol>
+
+            </li>
+            <li>Rice
+              <ol>
+                <li>with chicken</li>
+                <li>with sheep meat</li>
+                <li>with beef meat </li>
+              </ol>
+
+            </li>
+            <li>Meat with Cherry</li>
+            <li>Falafel</li>
+            <li>Salmon</li>
 
 
-                </div>
-
-                <!--Desserts-->
-                <div class="padding-left">
-                    <h4>Desserts</h4>
-                        <ul class="menu-list">
-                            <li>Baklava</li>
-                            <li>Muhallabiya</li>
-                            <li>Pistachio Kunafe</li>
-                        </ul>
-
-                </div>
-
-                <!--Drinks -->
-                <div class="padding-left">
-                    <h4>Drinks</h4>
-                    <ol class="menu-list">
-                        <li> Soft Drinks
-                            <ul>
-                                <li>Cola 250ml</li>
-                                <li>Fanta 250ml</li>
-                                <li>Apple juice 250ml</li>
-                                <li>Water 250ml</li>
-                                <li>Tea</li>
-                                <li>Coffee</li>
-                            </ul>
-
-                        </li>
-
-                        <li>Alcoholic Drinks
-                            <ul>                                
-                                <li>Beer</li>
-                                <li>Red wine</li>
-                                <li>White wine</li>
-                                <li>Gen</li>
-                            </ul>
-
-                        </li>
+          </ul>
 
 
-                    </ol>
-                </div>
+        </div>
 
-            </div>
+        <!--Desserts-->
+        <div class="padding-left">
+          <h4>Desserts</h4>
+          <ul class="menu-list">
+            <li>Baklava</li>
+            <li>Muhallabiya</li>
+            <li>Pistachio Kunafe</li>
+          </ul>
 
-         </section>
+        </div>
 
-      <!--Contact section -->
-      <section>
-        <div>
-            <h3 >Contact</h3>
-            
-            <div class="padding-left">
-                <!--Opening hours-->
-                <h4>Opening Hours</h4>
-                <table>
-                    <tr>
-                        <!--necessary empty to order the table content-->
-                        <th></th>
-                    </tr>
-                    <tr>
-        
-                        <td> Sunday - Monday</td>
-                        <td></td>
-                        <td>close</td>
-        
-        
-                    </tr>
-                    <tr>
-                        <td> Tuesday - Saturday</td>
-                        <td></td>
-                        <td>Open</td>
-        
-        
-                    </tr>
-                    <tr>
-                        <td>12:00-15:00</td>
-                        <td></td>
-                        <td>Open</td>
-                    </tr>
-                    <tr>
-                        <td>15:00-18:00</td>
-                        <td></td>
-                        <td>Break</td>
-                    </tr>
-                    <tr>
-                        <td>18:00-22:00
-                        <td>
-                        <td>Open again</td>
-                    </tr>
-        
-                </table>
-                
-                <!--contact info-->
-                <span>Address</span>
-                <p>Bottroper weg 4, 13507 Berlin</p>
-                <span>Phone number</span>
-                <p id="contact">01784474853</p>
-                <span>E-mail Address</span>
-                <p>syriacano@gmail.com</p>
-                <div class="iframe">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2424.584325605342!2d13.2831071!3d52.577128!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a854151c0c0f37%3A0x6a887a8796246bf9!2sBottroper%20Weg%204%2C%2013507%20Berlin!5e0!3m2!1sen!2sde!4v1691018132561!5m2!1sen!2sde">
-        
-                    </iframe>
-        
-                </div>
-        
-        
-            </div>
+        <!--Drinks -->
+        <div class="padding-left">
+          <h4>Drinks</h4>
+          <ol class="menu-list">
+            <li> Soft Drinks
+              <ul>
+                <li>Cola 250ml</li>
+                <li>Fanta 250ml</li>
+                <li>Apple juice 250ml</li>
+                <li>Water 250ml</li>
+                <li>Tea</li>
+                <li>Coffee</li>
+              </ul>
+
+            </li>
+
+            <li>Alcoholic Drinks
+              <ul>
+                <li>Beer</li>
+                <li>Red wine</li>
+                <li>White wine</li>
+                <li>Gen</li>
+              </ul>
+
+            </li>
+
+
+          </ol>
         </div>
 
 
-      </section>
-    </main>
 
-    <!--footer-->
-    <footer>
-      <!--footer paragraph-->
-      <p>Copyright © reserved for Bel'sy Restaurant</p>
-      <!--footer author-->
-      <author> Anass Muhammad Ali</author>
-    </footer>
-    <script
-      src="https://kit.fontawesome.com/8aa1684fec.js"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+    </section>
+
+    <!--Contact section -->
+    <section>
+      <div>
+        <h3>Contact</h3>
+
+        <div class="padding-left">
+          <!--Opening hours-->
+          <h4>Opening Hours</h4>
+          <table>
+            <tr>
+              <!--necessary empty to order the table content-->
+              <th></th>
+            </tr>
+            <tr>
+
+              <td> Sunday - Monday</td>
+              <td></td>
+              <td>close</td>
+
+
+            </tr>
+            <tr>
+              <td> Tuesday - Saturday</td>
+              <td></td>
+              <td>Open</td>
+
+
+            </tr>
+            <tr>
+              <td>12:00-15:00</td>
+              <td></td>
+              <td>Open</td>
+            </tr>
+            <tr>
+              <td>15:00-18:00</td>
+              <td></td>
+              <td>Break</td>
+            </tr>
+            <tr>
+              <td>18:00-22:00
+              <td>
+              <td>Open again</td>
+            </tr>
+
+          </table>
+
+          <!--contact info-->
+          <span>Address</span>
+          <p>Bottroper weg 4, 13507 Berlin</p>
+          <span>Phone number</span>
+          <p id="contact">01784474853</p>
+          <span>E-mail Address</span>
+          <p>syriacano@gmail.com</p>
+          <div class="iframe">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2424.584325605342!2d13.2831071!3d52.577128!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a854151c0c0f37%3A0x6a887a8796246bf9!2sBottroper%20Weg%204%2C%2013507%20Berlin!5e0!3m2!1sen!2sde!4v1691018132561!5m2!1sen!2sde">
+
+            </iframe>
+
+          </div>
+
+
+        </div>
+      </div>
+
+
+    </section>
+  </main>
+
+  <!--footer-->
+  <footer>
+    <!--footer paragraph-->
+    <p>Copyright © reserved for Bel'sy Restaurant</p>
+    <!--footer author-->
+    <author> Anass Muhammad Ali</author>
+  </footer>
+  <script src="https://kit.fontawesome.com/8aa1684fec.js" crossorigin="anonymous"></script>
+</body>
+
 </html>
