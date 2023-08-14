@@ -226,13 +226,26 @@ main {
 }
 
 #booking label {
-        padding: 35px 15px;
+        padding: 5px;
             margin: 5px;
             display: flex;
             width: 270px;
             height: 25px;
             font-weight: bold;
 }
+#booking input, select {
+    padding: 5px;
+        margin: 5px;
+        display: flex;
+        width: 270px;
+        height: 25px;
+        font-weight: bold;
+
+}
+#booking-submit{
+    text-align: center;
+}
+
 
 
 
