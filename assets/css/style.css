@@ -219,12 +219,19 @@ main {
 
 
 /******************** Bookings Style************************/
-
+/* style booking div container*/
 .booking-div {
          display: flow;
           position: relative;
+          height: fit-content;
+          width: fit-content;
+}
+/*style for h3 booking*/
+#booking h3 {
+    padding: 5px;
 }
 
+/*style for booking form labels */
 #booking label {
         padding: 5px;
             margin: 5px;
@@ -233,6 +240,8 @@ main {
             height: 25px;
             font-weight: bold;
 }
+
+/*style for input and select box for booking form*/
 #booking input, select {
     padding: 5px;
         margin: 5px;
@@ -242,21 +251,33 @@ main {
         font-weight: bold;
 
 }
+/* style for submit button for booking form*/
 #booking-submit{
     text-align: center;
+    padding: 10px;
+    margin: 5px;
 }
 
 
 
 
 /******************** Feedback ******************************/
+/* style feedback for div container*/
 .feedback-div {
         display: grid;
             position: relative;
             margin: 5px;
             padding: 5px;
-            border: 5px solid var(--color-secondary);
+            /*border: 5px solid var(--color-secondary);*/
 }
+
+/*style for h3 feedback form*/
+#feedback h3 {
+    padding: 5px;
+}
+
+/* style feedback for the form structure*/
+
 #feedback form {
     display: grid;
 }
@@ -320,6 +341,17 @@ footer {
         font-size: small;
         font-weight: bold;
     }
+/*******Booking ******/
+ #booking {
+    position: absolute;
+}
+#booking-label {
+  
+        width: 680px;
+        height: 150px;
+}
+
+/*******Feedback ******/
 
 
 }
