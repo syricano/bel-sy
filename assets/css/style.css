@@ -266,9 +266,20 @@ main h4 {
 
 
 /******************** Bookings Style************************/
+
+#booking {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 auto;
+}
+
 /* style booking div container*/
 .booking-div {
-    display: flow;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    padding: 20px 30px;
     position: relative;
     height: fit-content;
     width: fit-content;
@@ -458,9 +469,9 @@ footer {
 
     /*******Booking ******/
     /*to algin booking elements for wide screen*/
-    #booking {
+    /*#booking {
         position: absolute;
-    }
+    }*/
 /* to align the content to left  for wide screen*/
     #booking-label {
 
