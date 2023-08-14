@@ -190,9 +190,11 @@ span.bar::after {
 /*Main Style*/
 main {
 
-    display: grid;
-    justify-content: space-evenly;
-
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
     background-color: rgba(220, 70, 10, 0.6);
     /*the image was downloaded from Adobe.com*/
     background-image: url(/assets/images/AdobeStock_89046465_Preview.jpeg);
@@ -205,19 +207,42 @@ main {
     flex: 1 0 auto;
     /*style to get rid of space with header*/
     margin-top: 160px;
-    margin: 5px;
-    padding: 5px;
+    font-size: small;
+
+   
 }
+/* h3 headline style*/
+main h3 {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+/* h4 headline style */
+main h4 {
+    text-decoration: underline;
+        font-style: italic;
+}
+
+
+
+
 
 .about {
     background-color: var(--color-secondary);
+    /*width: max-content;*/
 
 }
 
+/*style box border around the images*/
 .menu-images {
     border: 2px solid black;
 }
 
+/*style lists in menu*/
+.menu-list {
+    list-style-type: none;
+}
 
 
 
