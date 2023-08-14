@@ -14,7 +14,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="Anass Muhammad Ali">
+    <meta name="author" content="Anass Muhammad Ali" />
 
     <!--title-->
     <title>Bel'Sy Restaurant</title>
@@ -29,7 +29,7 @@
       <div class="header-container">
         <!--header h1 created-->
         <h1 class="Logo">
-            <a href="index.html" class="active">Bel'Sy Restaurant</a>
+          <a href="index.html" class="active">Bel'Sy Restaurant</a>
         </h1>
         <!--header paragraph-->
         <p>The unique Syrian cuisine located in Belgium ( Tournai)</p>
@@ -45,58 +45,102 @@
       <!--Nav element as a list to home,about us, bookings,feedback and contact -->
       <nav>
         <ul class="nav-list">
-          <li><a href="../index.html" class="active" aria-label="go to menu section">Home</a></li>
-          <li><a href="/index.html#menu" aria-label="go to menu section">Menu</a></li>
-          <li><a href="booking.html" aria-label="go to bookings">Bookings</a></li>
-          <li><a href="form.html" aria-label="go to feedback" >Feedback</a></li>
-          <li><a href="/index.html#contact" aria-label="go to contact section">Contact</a></li>
+          <li>
+            <a
+              href="../index.html"
+              class="active"
+              aria-label="go to menu section"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a href="/index.html#menu" aria-label="go to menu section">Menu</a>
+          </li>
+          <li>
+            <a href="booking.html" aria-label="go to bookings">Bookings</a>
+          </li>
+          <li><a href="form.html" aria-label="go to feedback">Feedback</a></li>
+          <li>
+            <a href="/index.html#contact" aria-label="go to contact section"
+              >Contact</a
+            >
+          </li>
         </ul>
       </nav>
     </header>
     <!--Main-->
     <main>
-        <section id="feedback">
-            <h3>How did you enjoy your visit?</h3>
-            <div class="feedback-div">
-                <form method="get" name="feedback" action="index.html">
-                    <label for="name">Your Name</label>
-                    <input type="text" id="name" name="feedback" placeholder="Your Name here">
-                   
-                    <label for="email">Your E-mail</label>
-                    <input type="email" id="email" name="feedback" placeholder="Your E-mail here">
-                   
-                    <label for="unsatisfied">unsatisfied</label>
-                    <input id="unsatisfied" type="radio" name="feedback">
-                   
-                    <label for="somehow-satisfied">somehow satisfied</label>
-                    <input id="somehow-satisfied" type="radio" name="feedback">
-                   
-                    <label for="satisfied">satisfied</label>
-                    <input id="satisfied" type="radio" name="feedback">
-                   
-                    <label for="very-satisfied">Very satisfied</label>
-                    <input id="very-satisfied" type="radio" name="feedback">
-                   
-                    <label for="feedback" value="feedback" >What did you like/dislike</label>
-                    <textarea id="feedback" name="feedback" value="feedback" placeholder="leave your comment here" cols="20" rows="20">
+      <section id="feedback">
+        <h3>How did you enjoy your visit?</h3>
+        <div class="feedback-div">
+          <form method="get" name="feedback" action="index.html">
+            <div class="two-item">
+              <label for="name">Your Name</label>
+              <input
+                type="text"
+                id="name"
+                name="feedback"
+                placeholder="Your Name here"
+              />
 
-                    </textarea>
-                    <button type="submit" value="submit" id="feedback-submit">Submit your Feedback
-                    </button>
-
-                </form>
+              <label for="email">Your E-mail</label>
+              <input
+                type="email"
+                id="email"
+                name="feedback"
+                placeholder="Your E-mail here"
+              />
             </div>
 
-
-        </section>
+            <div class="four-item">
+              <div class="two-item">
+                <label for="unsatisfied">unsatisfied</label>
+                <input id="unsatisfied" type="radio" name="feedback" />
+              </div>
+              <div class="two-item">
+                <label for="somehow-satisfied">somehow satisfied</label>
+                <input id="somehow-satisfied" type="radio" name="feedback" />
+              </div>
+              <div class="two-item">
+                <label for="satisfied">satisfied</label>
+                <input id="satisfied" type="radio" name="feedback" />
+              </div>
+              <div class="two-item">
+                <label for="very-satisfied">Very satisfied</label>
+                <input id="very-satisfied" type="radio" name="feedback" />
+              </div>
+            </div>
+            <div class="two-item">
+              <label for="feedback" value="feedback"
+                >What did you like/dislike</label
+              >
+              <textarea
+                id="feedback"
+                name="feedback"
+                value="feedback"
+                placeholder="leave your comment here"
+                cols="20"
+                rows="10"
+              >
+              </textarea>
+            </div>
+            <button type="submit" value="submit" id="feedback-submit">
+              Submit your Feedback
+            </button>
+          </form>
+        </div>
+      </section>
     </main>
     <!--footer-->
-        <footer>
-            <!--footer paragraph-->
-            <p>Copyright © reserved for Bel'sy Restaurant</p>
-            <!--footer author-->
-            <author> Bel'Sy Restaurant</author>
-        </footer>
-        <script src="https://kit.fontawesome.com/8aa1684fec.js" crossorigin="anonymous"></script>
+    <footer>
+      <!--footer paragraph-->
+      <p>Copyright © reserved for Bel'sy Restaurant</p>
+      <!--footer author-->
+      <author> Bel'Sy Restaurant</author>
+    </footer>
+    <script
+      src="https://kit.fontawesome.com/8aa1684fec.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

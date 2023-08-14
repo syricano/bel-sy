@@ -276,10 +276,22 @@ main {
     padding: 5px;
 }
 
-/* style feedback for the form structure*/
+/* style feedback for the feedback div container*/
+
 
 #feedback form {
-    display: grid;
+    display: inline-grid;
+        align-items: end;
+        justify-content: space-between;
+        align-content: space-around;
+        justify-items: start;
+}
+
+#feedback label, input {
+    margin: 5px;
+        padding: 5px;
+        font-weight: bold;
+        width: fit-content;
 }
 
 /*Footer Style*/
@@ -290,7 +302,15 @@ footer {
     bottom: 0;
     text-align: center;
 }
+.two-item{
+    display: grid;
+    position: relative;
 
+}
+.four-item {
+    display: grid;
+        position: relative;
+}
 
 
 
@@ -352,6 +372,17 @@ footer {
 }
 
 /*******Feedback ******/
+
+#feedback {
+    /*
+    display:block;
+*/}
+#feedback form {
+        width: 80rem;
+            height: 45rem;
+}
+
+
 
 
 }
