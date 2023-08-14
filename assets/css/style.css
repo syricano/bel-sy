@@ -205,6 +205,8 @@ main {
     flex: 1 0 auto;
     /*style to get rid of space with header*/
     margin-top: 160px;
+    margin: 5px;
+    padding: 5px;
 }
 
 .about {
@@ -212,9 +214,10 @@ main {
 
 }
 
-.logo-image {
+.menu-images {
     border: 2px solid black;
 }
+
 
 
 
