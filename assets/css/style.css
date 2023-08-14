@@ -312,6 +312,10 @@ footer {
         position: relative;
 }
 
+#feedback-submit {
+    margin: 5px;
+        padding: 5px;
+}
 
 
 /* media-query :tablets larger then 768 px and up*/
