@@ -221,11 +221,12 @@ main {
 /******************** Bookings Style************************/
 /* style booking div container*/
 .booking-div {
-         display: flow;
-          position: relative;
-          height: fit-content;
-          width: fit-content;
+    display: flow;
+    position: relative;
+    height: fit-content;
+    width: fit-content;
 }
+
 /*style for h3 booking*/
 #booking h3 {
     padding: 5px;
@@ -233,26 +234,28 @@ main {
 
 /*style for booking form labels */
 #booking label {
-        padding: 5px;
-            margin: 5px;
-            display: flex;
-            width: 270px;
-            height: 25px;
-            font-weight: bold;
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    width: 270px;
+    height: 25px;
+    font-weight: bold;
 }
 
 /*style for input and select box for booking form*/
-#booking input, select {
+#booking input,
+select {
     padding: 5px;
-        margin: 5px;
-        display: flex;
-        width: 270px;
-        height: 25px;
-        font-weight: bold;
+    margin: 5px;
+    display: flex;
+    width: 270px;
+    height: 25px;
+    font-weight: bold;
 
 }
+
 /* style for submit button for booking form*/
-#booking-submit{
+#booking-submit {
     text-align: center;
     padding: 10px;
     margin: 5px;
@@ -264,11 +267,11 @@ main {
 /******************** Feedback ******************************/
 /* style feedback for div container*/
 .feedback-div {
-        display: grid;
-            position: relative;
-            margin: 5px;
-            padding: 5px;
-            /*border: 5px solid var(--color-secondary);*/
+    display: grid;
+    position: relative;
+    margin: 5px;
+    padding: 5px;
+    /*border: 5px solid var(--color-secondary);*/
 }
 
 /*style for h3 feedback form*/
@@ -276,24 +279,45 @@ main {
     padding: 5px;
 }
 
-/* style feedback for the feedback div container*/
+/* style feedback for the feedback form*/
 
 
 #feedback form {
     display: inline-grid;
-        align-items: end;
-        justify-content: space-between;
-        align-content: space-around;
-        justify-items: start;
+    align-items: end;
+    justify-content: space-between;
+    align-content: space-around;
+    justify-items: start;
 }
 
-#feedback label, input {
+/*style for each label, input of feedback form*/
+#feedback label,
+input {
     margin: 5px;
-        padding: 5px;
-        font-weight: bold;
-        width: fit-content;
+    padding: 5px;
+    font-weight: bold;
+    width: fit-content;
+
 }
 
+/* style for every 2 items in the feedback form , it wa easier to style it this way*/
+.two-item {
+    display: grid;
+    position: relative;
+
+}
+/* style for group of 4 items in feedback form*/
+.four-item {
+    display: grid;
+    position: relative;
+}
+
+/*style for submit button in feedback form*/
+
+#feedback-submit {
+    margin: 5px;
+    padding: 5px;
+}
 /*Footer Style*/
 footer {
     position: relative;
@@ -302,26 +326,16 @@ footer {
     bottom: 0;
     text-align: center;
 }
-.two-item{
-    display: grid;
-    position: relative;
 
-}
-.four-item {
-    display: grid;
-        position: relative;
-}
 
-#feedback-submit {
-    margin: 5px;
-        padding: 5px;
-}
 
 
 /* media-query :tablets larger then 768 px and up*/
 @media screen and (min-width:768px) {
 
     /* Header*/
+
+    /* nav style in header for wide screen*/
     nav {
         display: flex;
         position: relative;
@@ -330,11 +344,12 @@ footer {
         opacity: 1;
 
     }
-
+/* header style for wide screen */
     header {
         text-align: center;
     }
 
+    /*h1 header style  for wide screen*/
     header h1 {
         font-size: xx-large;
     }
@@ -343,48 +358,55 @@ footer {
         font-size: large;
     }
 
+    /* to hide the nav toggle span when wide screen applied*/
     .nav-toggle-label {
         display: none;
     }
-
+/* style of nav list for wide screen */
     .nav-list {
         display: contents;
         letter-spacing: normal;
         margin: 5px;
         color: white;
     }
-
+/* to align header elements to center for wide screen*/
     header div {
         display: flex;
         align-items: center;
 
     }
-
+/*to style nav list font size for wide screen*/
     .nav-list li {
         padding-left: 2rem;
         font-size: small;
         font-weight: bold;
     }
-/*******Booking ******/
- #booking {
-    position: absolute;
-}
-#booking-label {
-  
+
+    /*******Booking ******/
+    /*to algin booking elements for wide screen*/
+    #booking {
+        position: absolute;
+    }
+/* to align the content to left  for wide screen*/
+    #booking-label {
+
         width: 680px;
         height: 150px;
-}
+    }
 
-/*******Feedback ******/
+    /*******Feedback ******/
 
-#feedback {
-    /*
+    #feedback {
+        /*
     display:block;
-*/}
-#feedback form {
+*/
+    }
+    /* to align content to left for wide screen*/
+
+    #feedback form {
         width: 80rem;
-            height: 45rem;
-}
+        height: 45rem;
+    }
 
 
 
