@@ -226,6 +226,7 @@ main {
  
 
 }
+
 /* h3 headline style*/
 main h3 {
     font-weight: bold;
@@ -426,6 +427,27 @@ footer {
         padding-left: 2rem;
         font-size: small;
         font-weight: bold;
+    }
+
+
+    /******** Main *******/
+    #main-section {
+        margin: 0 auto;
+    }
+    .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .gallery div {
+        height: 350px !important;
+        width: 350px !important;
+    }
+    .gallery div img {
+        width: 100% !important;
+        height: 100% !important;
+        object-fit: cover;
     }
 
     /*******Booking ******/
