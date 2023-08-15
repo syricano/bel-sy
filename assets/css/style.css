@@ -53,7 +53,7 @@ header {
 
 /* Logo h1 header style*/
 header h1 {
-    font-size: x-large;
+    font-size: xx-large;
     font-weight: bold;
     text-align: center;
 
@@ -64,7 +64,7 @@ header h1 {
 
 header p {
     text-align: center;
-    font-size: small;
+    font-size:medium;
 }
 
 
@@ -103,11 +103,11 @@ a {
 
 }
 
-/* Nav list style to remove the bullet points*/
+/* Nav list style*/
 .nav-list {
+    /* Nav list style to remove the bullet points*/
     list-style-type: none;
     letter-spacing: 4px;
-
     margin-bottom: 1em;
 }
 
@@ -426,7 +426,7 @@ select {
 }
 
 /*style for each label, input of feedback form*/
-#feedback label,
+#feedback1 label,
 input {
     margin: 5px;
     padding: 5px;
@@ -435,6 +435,10 @@ input {
 
 }
 
+/* Style to algin text for labels*/
+#feedback1 label {
+    text-align: left;
+}
 /* style for every 2 items in the feedback form , it wa easier to style it this way*/
 .two-item {
     display: grid;
@@ -513,7 +517,7 @@ footer {
       /*to style nav list font size for wide screen*/
      .nav-list li {
         padding-left: 2rem;
-        font-size: small;
+        font-size: 150%;
         font-weight: bold;
      }
 
