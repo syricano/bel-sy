@@ -219,12 +219,12 @@ main {
     flex-wrap: wrap;
     flex-direction: column; */
     background-color: rgba(220, 70, 10, 0.6);
-   
-    background-repeat: repeat;
-    
+      
     /* make main expand to ta to push footer down*/
-    flex: 1 0 auto;
+    /*flex: 1 0 auto;*/
+    
     /*style to get rid of space with header*/
+    
     margin-top: 160px;
     font-size: 100%;
     text-align: center;
@@ -259,7 +259,7 @@ main {
 #menu {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: baseline;
     flex-direction: column;
     width: 100%;
     margin-left: 20px ;
@@ -290,17 +290,21 @@ main h4 {
 }
 
 
+/* Style about us*/
 
-
-
+/* Style the div of about us*/
 .about {
+    padding: 2rem;
     background-color: var(--color-secondary);
+    text-align: left;
     /*width: max-content;*/
 
+    /*style for the h1 about us*/
 }
 .about h3 {
     margin-bottom: 10px;
     font-size: 150%;
+
 }
 
 
