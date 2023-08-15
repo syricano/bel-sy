@@ -536,11 +536,11 @@ footer {
         position: absolute;
      }*/
      /* to align the content to left  for wide screen*/
-     #booking-label {
+     /*#booking-label {
 
         width: 680px;
         height: 150px;
-     }
+     }*/
 
      /*******Feedback ******/
 
@@ -567,11 +567,11 @@ footer {
         justify-content: flex-start;
     }
     .screen-size {
-        width: 1200px !important; 
+        width: 45rem !important; 
         height: 40px !important;
     }
     .textera-size{
-        width: 1200px !important; 
+        width: 45rem !important; 
         height: 40px !important;
         (row-gap: 200;)
         (cols-gab:600);
