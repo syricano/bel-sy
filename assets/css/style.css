@@ -320,7 +320,8 @@ main h4 {
 #booking {
     display: flex;
     justify-content: center;
-    align-items: center;
+    flex-direction: row;
+    align-items: flex-start;
     flex: 1 0 auto;
 }
 
@@ -564,6 +565,17 @@ footer {
         flex-direction: column;
         flex-wrap: wrap;
         justify-content: flex-start;
+    }
+    .screen-size {
+        width: 1200px !important; 
+        height: 40px !important;
+    }
+    .textera-size{
+        width: 1200px !important; 
+        height: 40px !important;
+        (row-gap: 200;)
+        (cols-gab:600);
+
     }
 
 
