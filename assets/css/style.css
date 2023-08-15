@@ -122,6 +122,7 @@ nav {
     width: 100%;
     left: 0;
     top: 3rem;
+    height: 3rem;
     padding: 0 1rem;
     /*box-shadow: 0 2px 2px rgba(0, 0, 0, 0.6); */
     /*display: none;*/
@@ -218,12 +219,8 @@ main {
     flex-wrap: wrap;
     flex-direction: column; */
     background-color: rgba(220, 70, 10, 0.6);
-    /*the image was downloaded from freepik.com
-    <a href="https://www.freepik.com/free-photo/golden-cutlery-with-textile-plate-dark-background-top-view_19183070.htm#query=restaurant%20dark%20background&position=4&from_view=search&track=ais">Image by valeria_aksakova</a> on Freepik*/
-    background-image: url(/assets/images/golden-cutlery-with-textile-plate-dark-background-top-view\ \(1\).jpg);
-
+   
     background-repeat: repeat;
-    background-size: 200%;
     
     /* make main expand to ta to push footer down*/
     flex: 1 0 auto;
