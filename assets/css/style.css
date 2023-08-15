@@ -17,6 +17,7 @@
 /* General style*/
 body {
     min-height: 100vh;
+    max-width: 290vw;
     display: flex;
     flex-direction: column;
     /* General Project style*/
