@@ -298,13 +298,17 @@ ul {
 
 
 /******************** Bookings Style************************/
-
+/*
 #booking {
     display: flex;
     justify-content: center;
     flex-direction: row;
     align-items: flex-start;
     flex: 1 0 auto;
+} */
+
+#booking {
+    margin-inline: auto;
 }
 
 /* style booking div container*/
