@@ -8,7 +8,7 @@
     box-sizing: border-box;
 
 }
-
+  /***setting favored colors***/
 :root {
     --color-primary: #FFA500;
     --color-secondary: rgba(0, 0, 0, 0.6);
@@ -64,41 +64,17 @@ header h1 {
 
 header p {
     text-align: center;
-    font-size:medium;
+    font-size: medium;
 }
 
 
-/*******Style for the smallest screen size Mobile  280 PX******/
-@media screen and (max-width:280px) {
-
-    /*header*/
-    .header-container {
-        display: flex;
-        flex-direction: column;
-        align-items: start;
-    }
-    header h1 {
-        text-align: left;
-        
-    }
-    header p{
-        font-size: x-small;
-    }
- 
-
-
-
-
-}
 
 a {
     color: white;
     text-decoration: none;
     font-size: 110;
     text-transform: uppercase;
-    z-index: 999
-        !important
-    ;
+    z-index: 999 !important;
 
 
 }
@@ -113,7 +89,7 @@ a {
 
 /* active style*/
 *.active {
-      border-bottom: 2px solid white;
+    border-bottom: 2px solid white;
 }
 
 /*Nav Style*/
@@ -212,47 +188,50 @@ span.bar::after {
 
 /*Main Style*/
 main {
- 
+
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     flex-wrap: wrap;
-    flex-direction: column; */
-    background-color: rgba(220, 70, 10, 0.6);
-      
+    flex-direction: column;
+    */ background-color: rgba(220, 70, 10, 0.6);
+
     /* make main expand to ta to push footer down*/
     /*flex: 1 0 auto;*/
-    
+
     /*style to get rid of space with header*/
-    
+
     margin-top: 160px;
     font-size: 100%;
     text-align: center;
 
-   
+
 }
+
 #gallery {
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    width:auto;
+    width: auto;
     margin: 2px 2px;
- }
- .gallary-div {
+}
+
+.gallary-div {
     height: 350px !important;
     width: 350px !important;
- }
- 
- .gallary-div img {
+}
+
+.gallary-div img {
     width: 100% !important;
     height: 100% !important;
     object-fit: cover;
- }
- /*style box border around the images*/
- .gallary-div {
+}
+
+/*style box border around the images*/
+.gallary-div {
     border: 2px solid black;
- 
+
 
 }
 
@@ -262,15 +241,15 @@ main {
     align-items: baseline;
     flex-direction: column;
     width: 100%;
-    margin-left: 20px ;
+    margin-left: 20px;
     padding: 20px;
 }
 
-/* to align menu elements aside from left size
-.center-elements {
+/* to align menu elements aside from left size */
+.divs-screen-size {
     margin: 10px 20px;
     padding: 10px 20px;
-}*/
+}
 
 
 
@@ -285,8 +264,8 @@ main h3 {
 /* h4 headline style */
 main h4 {
     text-decoration: underline;
-        font-style: italic;
-        
+    font-style: italic;
+
 }
 
 
@@ -301,6 +280,7 @@ main h4 {
 
     /*style for the h1 about us*/
 }
+
 .about h3 {
     margin-bottom: 10px;
     font-size: 150%;
@@ -310,7 +290,8 @@ main h4 {
 
 
 /*style lists in menu*/
-#menu ol, ul {
+#menu ol,
+ul {
     list-style-type: none;
 }
 
@@ -381,14 +362,16 @@ select {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex: 1 0 auto ;
+    flex: 1 0 auto;
     padding: 20px;
-    
+
 
 }
+
 #feedback1 h3 {
-    text-align:center;
+    text-align: center;
 }
+
 .feedback-div {
     background-color: rgba(0, 0, 0, 0.6);
     border-radius: 10px;
@@ -400,6 +383,7 @@ select {
 }
 
 }
+
 /*
 .feedback-div {
     display: grid;
@@ -407,8 +391,9 @@ select {
     margin: 5px;
     padding: 5px;
     /*border: 5px solid var(--color-secondary);*/
-    } */
- 
+}
+
+*/
 
 /*style for h3 feedback form*/
 #feedback h3 {
@@ -440,12 +425,14 @@ input {
 #feedback1 label {
     text-align: left;
 }
+
 /* style for every 2 items in the feedback form , it wa easier to style it this way*/
 .two-item {
     display: grid;
     position: relative;
 
 }
+
 /* style for group of 4 items in feedback form*/
 .four-item {
     display: grid;
@@ -458,6 +445,7 @@ input {
     margin: 5px;
     padding: 5px;
 }
+
 /*Footer Style*/
 footer {
     position: relative;
@@ -469,100 +457,131 @@ footer {
 
 
 
+/*******************************media-query Style for the smallest screen size Mobile  280 PX******************************/
 
-/* media-query :tablets larger then 768 px and up*/
+
+@media screen and (max-width:280px) {
+
+    /*header*/
+    .header-container {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    header h1 {
+        text-align: left;
+
+    }
+
+    header p {
+        font-size: x-small;
+    }
+
+
+}
+/*--------------------------------------------------End of small screen size media query section-----------------------------------------------------------------------------*/
+
+
+/************************** media-query :styles for tablets or desktop larger then 768 px and up*******************************/
 @media screen and (min-width:768px) {
 
-     /* Header*/
+    /* Header*/
 
-     /* nav style in header for wide screen*/
-     nav {
+    /* nav style in header for wide screen*/
+    nav {
         display: flex;
         position: relative;
         /*width: fit-content; */
         padding-left: 1rem;
         opacity: 1;
 
-     }
-     /* header style for wide screen */
-     header {
+    }
+
+    /* header style for wide screen */
+    header {
         text-align: center;
-     }
+    }
 
-     /*h1 header style  for wide screen*/
-     header h1 {
+    /*h1 header style  for wide screen*/
+    header h1 {
         font-size: xx-large;
-     }
+    }
 
-     header p {
+    header p {
         font-size: large;
-     }
+    }
 
-     /* to hide the nav toggle span when wide screen applied*/
-     .nav-toggle-label {
+    /* to hide the nav toggle span when wide screen applied*/
+    .nav-toggle-label {
         display: none;
-     }
-     /* style of nav list for wide screen */
-     .nav-list {
+    }
+
+    /* style of nav list for wide screen */
+    .nav-list {
         display: contents;
         letter-spacing: normal;
         margin: 5px;
         color: white;
-     }
-     /* to align header elements to center for wide screen*/
-     header div {
+    }
+
+    /* to align header elements to center for wide screen*/
+    header div {
         display: flex;
         align-items: center;
 
-     }
-      /*to style nav list font size for wide screen*/
-     .nav-list li {
+    }
+
+    /*to style nav list font size for wide screen*/
+    .nav-list li {
         padding-left: 2rem;
         font-size: 150%;
         font-weight: bold;
-     }
+    }
 
 
-     /******** Main *******/
-     main section {
+    /******** Main *******/
+    main section {
         margin: 0 auto;
-     }
-   
-     .menu-div {
+    }
+
+    .menu-div {
         display: flex;
         flex-direction: row;
         justify-content: center;
         font-size: 130%;
-     }
+    }
 
-     /*******Booking ******/
-     /*to algin booking elements for wide screen*/
-     /*#booking {
+    /*******Booking ******/
+    /*to algin booking elements for wide screen*/
+    /*#booking {
         position: absolute;
      }*/
-     /* to align the content to left  for wide screen*/
-     /*#booking-label {
+    /* to align the content to left  for wide screen*/
+    /*#booking-label {
 
         width: 680px;
         height: 150px;
      }*/
 
-     /*******Feedback ******/
+    /*******Feedback ******/
 
-   
-     /* to align content to left for wide screen*/
 
-     #feedback form {
+    /* to align content to left for wide screen*/
+
+    #feedback form {
         width: 100%;
         height: 100%;
         font-size: x-large;
-     }
-     .feedback-div {
+    }
+
+    .feedback-div {
         text-align: left;
         height: 100%;
         width: 100%;
-     }
-     #feedback1 {
+    }
+
+    #feedback1 {
         display: flex;
         align-items: center;
         flex: 1 0 auto;
@@ -571,15 +590,16 @@ footer {
         flex-wrap: wrap;
         justify-content: flex-start;
     }
+
     .screen-size {
-        width: 45rem !important; 
+        width: 45rem !important;
         height: 40px !important;
     }
-    .textera-size{
-        width: 45rem !important; 
+
+    .textera-size {
+        width: 45rem !important;
         height: 40px !important;
-        (row-gap: 200;)
-        (cols-gab:600);
+        (row-gap: 200; ) (cols-gab:600);
 
     }
 
@@ -587,3 +607,6 @@ footer {
 
 
 }
+
+/* -----------------------------------------End of style 768px large screen size----------------------------------------------------*/
+
