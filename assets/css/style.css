@@ -190,10 +190,10 @@ span.bar::after {
 main {
 
     display: flex;
-    justify-content: space-between;
+    /*justify-content: space-between;
     align-items: flex-start;
-    flex-wrap: wrap;
-    flex-direction: column;
+    flex-wrap: wrap; */
+    flex-direction: column; 
     */ background-color: rgba(220, 70, 10, 0.6);
 
     /* make main expand to ta to push footer down*/
@@ -211,8 +211,8 @@ main {
 #gallery {
     display: flex;
     flex-wrap: wrap;
+    align-content: space-between;
     justify-content: center;
-    align-items: center;
     width: auto;
     margin: 2px 2px;
 }
@@ -501,6 +501,7 @@ footer {
 /*--------------------------------------------------End of small screen size media query section-----------------------------------------------------------------------------*/
 
 
+
 /************************** media-query :styles for tablets or desktop larger then 768 px and up*******************************/
 @media screen and (min-width:768px) {
 
@@ -562,7 +563,12 @@ footer {
     main section {
         margin: 0 auto;
     }
-
+ #gallary {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    justify-content: center;
+ }
     .menu-div {
         display: flex;
         flex-direction: row;
