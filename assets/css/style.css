@@ -208,12 +208,12 @@ main {
 
 }
 
-#gallery {
+section#gallary {
     display: flex;
     flex-wrap: wrap;
     align-content: space-between;
     justify-content: center;
-    width: auto;
+    width: 100%;
     margin: 2px 2px;
 }
 
@@ -225,7 +225,7 @@ main {
 .gallary-div img {
     width: 100% !important;
     height: 100% !important;
-    object-fit: cover;
+    object-fit:cover;
 }
 
 /*style box border around the images*/
