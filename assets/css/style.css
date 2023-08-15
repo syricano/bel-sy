@@ -329,7 +329,7 @@ main h4 {
     background-color: rgba(0, 0, 0, 0.6);
     border-radius: 10px;
     backdrop-filter: blur(5px);
-    padding: 10px 10px;
+    padding: 10px px;
     position: relative;
     height: fit-content;
     width: fit-content;
@@ -374,13 +374,39 @@ select {
 
 /******************** Feedback ******************************/
 /* style feedback for div container*/
+
+#feedback1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 auto ;
+    padding: 20px;
+    
+
+}
+#feedback1 h3 {
+    text-align:center;
+}
+.feedback-div {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    padding: 10px px;
+    position: relative;
+    height: fit-content;
+    width: fit-content;
+}
+
+}
+/*
 .feedback-div {
     display: grid;
     position: relative;
     margin: 5px;
     padding: 5px;
     /*border: 5px solid var(--color-secondary);*/
-}
+    } */
+ 
 
 /*style for h3 feedback form*/
 #feedback h3 {
@@ -521,9 +547,24 @@ footer {
      /* to align content to left for wide screen*/
 
      #feedback form {
-        width: 80rem;
-        height: 45rem;
+        width: 100%;
+        height: 100%;
+        font-size: x-large;
      }
+     .feedback-div {
+        text-align: left;
+        height: 100%;
+        width: 100%;
+     }
+     #feedback1 {
+        display: flex;
+        align-items: center;
+        flex: 1 0 auto;
+        padding: 20px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
 
 
 
