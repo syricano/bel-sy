@@ -53,7 +53,7 @@ header {
 
 /* Logo h1 header style*/
 header h1 {
-    font-size: xx-large;
+    font-size: x-large;
     font-weight: bold;
     text-align: center;
 
@@ -519,7 +519,7 @@ footer {
 
     /*h1 header style  for wide screen*/
     header h1 {
-        font-size: xx-large;
+        font-size: x-large;
     }
 
     header p {
