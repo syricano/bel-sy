@@ -473,7 +473,15 @@ footer {
     text-align: center;
 }
 
-
+/***** Contact section style *******/
+#contact {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
 
 /*******************************media-query Style for the smallest screen size Mobile  280 PX******************************/
 
@@ -576,7 +584,7 @@ footer {
         font-size: 130%;
     }
     #thumb {
-        
+
     }
 
     /*******Booking ******/
