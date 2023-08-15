@@ -109,7 +109,7 @@ nav {
     z-index: -991;
     opacity: 0;
     color: transparent;
-    background-color: var(--color-secondary);
+    background-color: rgb(70 100 10 / 50%);
 
 
 }
@@ -232,6 +232,7 @@ section#gallary {
     justify-content: center;
     width: 100%;
     margin: 2px 2px;
+    padding: 20px;
 }
 
 .gallary-div {
