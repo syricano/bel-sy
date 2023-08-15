@@ -482,6 +482,11 @@ footer {
     width: 100%;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 4px;
 }
 
 /*******************************media-query Style for the smallest screen size Mobile  280 PX******************************/
@@ -584,9 +589,7 @@ footer {
         justify-content: center;
         font-size: 130%;
     }
-    #thumb {
-
-    }
+    
 
     /*******Booking ******/
     /*to algin booking elements for wide screen*/
@@ -634,10 +637,11 @@ footer {
     .textera-size {
         width: 45rem !important;
        /* height: 40px !important;*/
-        (row-gap: 200; ) (cols-gab:600);
+        
+      
 
     }
-
+   
 
 
 
