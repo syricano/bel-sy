@@ -539,6 +539,14 @@ footer {
 #contact table {
     text-transform: uppercase;
 }
+#contact td {
+    font-size: 75%;
+    padding: 1rem;
+}
+.address {
+    font-size: 75%;
+    padding: 1rem;
+}
 
 /****************** Respone style ***************/
 
