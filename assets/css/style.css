@@ -96,10 +96,11 @@ a {
 
 /*Nav Style*/
 nav {
-    position: fixed;
+    position: relative;
     width: 100%;
     top: 5rem;
     padding: 0 3rem;
+    padding-left: 1rem;
     scroll-behavior: smooth;
     /*box-shadow: 0 2px 2px rgba(0, 0, 0, 0.6); */
     /*display: none;*/
@@ -107,7 +108,7 @@ nav {
     transition: all 0.3s ease-in-out;
 
     z-index: -991;
-    opacity: 0;
+    opacity: 1;
     color: transparent;
     background-color: rgb(70 100 10 / 50%);
 
@@ -544,26 +545,7 @@ main .response{
 /*******************************media-query Style for the smallest screen size Mobile  280 PX******************************/
 
 
-@media screen and (max-width:280px) {
 
-    /*header*/
-    .header-container {
-        display: flex;
-        flex-direction: column;
-        align-items: start;
-    }
-
-    header h1 {
-        text-align: left;
-
-    }
-
-    header p {
-        font-size: x-small;
-    }
-
-
-}
 /*--------------------------------------------------End of small screen size media query section-----------------------------------------------------------------------------*/
 
 /************************** media-query :styles for mobile 375px width ***********/
