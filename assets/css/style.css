@@ -356,7 +356,7 @@ ul {
     padding: 10px px;
     position: relative;
     height: fit-content;
-    width: fit-content;
+    width: 730px;
 }
 .booking-div form {
     height: 1200px;
@@ -536,6 +536,15 @@ footer {
 
 #contact table, span {
     text-transform: uppercase;
+}
+
+/****************** Respone style ***************/
+
+main .response{ 
+    width: fit-content;
+    height: 100vh;
+    font-size: x-large;
+    margin: 50px 50px;
 }
 
 /*******************************media-query Style for the smallest screen size Mobile  280 PX******************************/
