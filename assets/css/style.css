@@ -12,6 +12,7 @@
 :root {
     --color-primary: #FFA500;
     --color-secondary: rgba(0, 0, 0, 0.6);
+    
 }
 
 /* General style*/
@@ -22,7 +23,7 @@ body {
     flex-direction: column;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #5ee604ad;
+    background-color: rgb(50 220 20 / 70%);;
 
 }
 
@@ -34,7 +35,6 @@ header {
     z-index: 99;
     width: 100%;
     height: 10rem;
-    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.6);
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -290,6 +290,7 @@ section#gallary {
     background-color: rgba(0, 0, 0, 0.6);
 }
 
+
 .divs-screen-size {
     margin: 2px;
     padding: 2px;
@@ -297,6 +298,7 @@ section#gallary {
 
 .divs-screen-size li {
     margin: 1rem;
+    color: #FFA500;
 }
 
 .divs-screen-size ol h5 {
@@ -311,13 +313,16 @@ main h3 {
     font-weight: bold;
     text-transform: uppercase;
     font-size: 100%;
+    color: brown;
 }
 
 
 /* h4 headline style */
 main h4 {
     text-decoration: underline;
-    font-size: 75%;
+    font-size: 100%;
+    color: #ffa500;
+    
 
 }
 
@@ -424,7 +429,6 @@ select {
 .feedback-div {
     background-color: rgba(0, 0, 0, 0.6);
     border-radius: 10px;
-    backdrop-filter: blur(5px);
     padding: 2px;
     margin: 2px;
     position: relative;
@@ -439,13 +443,7 @@ select {
 
 
 
-/*
-.feedback-div {
-    display: grid;
-    position: relative;
-    margin: 5px;
-    padding: 5px;
-    /*border: 5px solid var(--color-secondary); }*/
+
 
 
 
@@ -654,7 +652,6 @@ main .response{
      .booking-div {
         background-color: rgba(0, 0, 0, 0.6);
         border-radius: 10px;
-        backdrop-filter: blur(5px);
         padding: 10px px;
         position: relative;
         height: fit-content;
