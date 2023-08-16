@@ -199,9 +199,9 @@ main {
 
  
 
-    /* <a href="https://www.freepik.com/free-photo/golden-cutlery-with-textile-plate-dark-background-top-view_19183070.htm#query=restaurant%20background&position=11&from_view=search&track=country_rows_v2">Image by valeria_aksakova</a> on Freepik */
+    /* Image by valeria_aksakova</a> on Freepik */
 
-    background-image: url(/assets/images/golden-cutlery-with-textile-plate-dark-background-top-view\ \(1\).jpg); 
+    background-image: url(../images/golden-cutlery-with-textile-plate-dark-background-top-view.jpg); 
     background-repeat: no-repeat;
     background-size:cover;
     /*style to get rid of space with header*/
