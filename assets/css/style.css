@@ -427,7 +427,7 @@ select {
 .feedback-div form {
     padding: 2px;
     margin: 2px;
-    font-size: larger;
+    font-size: 100%;
             }
 
 
@@ -471,6 +471,8 @@ input {
 /* Style to algin text for labels*/
 #feedback1 label {
     text-align: left;
+    text-align: center;
+    font-size: 75%;
 }
 
 /* style for every 2 items in the feedback form , it wa easier to style it this way*/
@@ -485,16 +487,21 @@ input {
 
 }
 
+.label-size {
+    margin: 2px;
+    font-size: 100%;
+}
+
 /* style for group of 4 items in feedback form*/
 
 .four-item {
     display: flex;
-    
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-content: flex-start;
-    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
     align-items: baseline;
+    justify-content: flex-end;
+    margin: 5px;
         } 
 
         #feedback {
