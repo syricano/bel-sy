@@ -15,4 +15,19 @@ The features that will be included in the websites, images of the food, drinks, 
 - CSS
 ---
 
+## User Stories
+
+- As a user:
+- I want to be able to see some pictures of the meals, so I know if the food is good for me.
+- I want to see their drinks variety.
+- I want to see if they have a desserts.
+- I want to see if they have their contact details so I can get in touch.
+- I want to see their opening hours.
+
+As a website administrator :
+- I want to have a website to show our menu and drinks to customers.
+- I want to have our contact details so people can call or message to book a table.
+- I want to add-delete meals when needed.
+- I want to add- delete images of gallary.
+
 
