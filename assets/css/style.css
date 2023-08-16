@@ -10,7 +10,7 @@
 }
   /***setting favored colors***/
 :root {
-    --color-primary: #FFA500;
+    --color-primary: rgb(255 170 0);
     --color-secondary: rgba(0, 0, 0, 0.6);
     
 }
@@ -21,7 +21,7 @@ body {
     max-width: 290vw;
     display: flex;
     flex-direction: column;
-    color: white;
+    color: rgb(255 166 0 / 50%);
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(50 220 20 / 70%);;
 
@@ -75,7 +75,7 @@ header p {
 
 
 a {
-    color: white;
+    color: yellow;
     text-decoration:none;
     font-size: 110;
     cursor:pointer;
@@ -298,13 +298,14 @@ section#gallary {
 
 .divs-screen-size li {
     margin: 1rem;
-    color: #FFA500;
+    color: rgb(255 166 0 / 50%);;
 }
 
 .divs-screen-size ol h5 {
     font-weight: bold;
-    font-size: large;
-    color: #FFA500;
+    color:  rgb(255 170 0);
+    font-size: 100%;
+
 }
 
 
@@ -321,7 +322,7 @@ main h3 {
 main h4 {
     text-decoration: underline;
     font-size: 100%;
-    color: #ffa500;
+    color: rgb(255 170 0);
     
 
 }
@@ -554,6 +555,7 @@ footer {
 #contact td {
     font-size: 75%;
     padding: 1rem;
+    color: rgb(255 166 0 / 50%);;
 }
 .address {
     font-size: 75%;
