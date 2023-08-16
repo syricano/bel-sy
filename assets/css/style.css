@@ -191,19 +191,18 @@ span.bar::after {
 main {
 
     display: flex;
-    /*justify-content: space-between;
-    align-items: flex-start;
-    flex-wrap: wrap; */
+   
     flex-direction: column; 
     */ background-color: rgba(220, 70, 10, 0.6);
 
-    /* make main expand to ta to push footer down*/
-    /*flex: 1 0 auto;*/
+ 
 
-    /*style to get rid of space with header*/
-    background-image: url(/assets/images/golden-cutlery-with-textile-plate-dark-background-top-view\ \(1\).jpg);
+    /* <a href="https://www.freepik.com/free-photo/golden-cutlery-with-textile-plate-dark-background-top-view_19183070.htm#query=restaurant%20background&position=11&from_view=search&track=country_rows_v2">Image by valeria_aksakova</a> on Freepik */
+
+    background-image: url(/assets/images/golden-cutlery-with-textile-plate-dark-background-top-view\ \(1\).jpg); 
     background-repeat: no-repeat;
     background-size:cover;
+    /*style to get rid of space with header*/
 
     margin-top: 160px;
     font-size: 100%;
@@ -319,14 +318,22 @@ ul {
 
 
 /******************** Bookings Style************************/
-/*
+
 #booking {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    width: 100%;
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+    align-items: center;
     justify-content: center;
-    flex-direction: row;
-    align-items: flex-start;
+    letter-spacing: 4px;
+    padding: 20px;
     flex: 1 0 auto;
-} */
+} 
 
 #booking {
     margin-inline: auto;
@@ -341,6 +348,9 @@ ul {
     position: relative;
     height: fit-content;
     width: fit-content;
+}
+.booking-div form {
+    height: 1200px;
 }
 
 /*style for h3 booking*/
@@ -409,6 +419,8 @@ select {
 .feedback-div form {
     padding: 2px;
     margin: 2px;
+    height: 1200px;
+    font-size: larger;
             }
 
 
