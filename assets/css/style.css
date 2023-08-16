@@ -530,6 +530,13 @@ footer {
     letter-spacing: 4px;
     padding: 20px;
 }
+#contact h3, h4, table, span {
+    margin: 2rem;
+}
+
+#contact table, span {
+    text-transform: uppercase;
+}
 
 /*******************************media-query Style for the smallest screen size Mobile  280 PX******************************/
 
