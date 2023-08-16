@@ -497,6 +497,12 @@ input {
     align-items: baseline;
         } 
 
+        #feedback {
+            width: 100%;
+            min-height: 100px;
+            max-height: 350px;
+        }
+
 /*style for submit button in feedback form*/
 
 #feedback-submit {
