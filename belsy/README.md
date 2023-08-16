@@ -9,5 +9,10 @@ The website will target all users , whom are looking for a place in tournai to d
 The features that will be included in the websites, images of the food, drinks, tables will attract them and give them an imagination idea how the place looks .
 
 
+## Technologies used:
+
+- HTML
+- CSS
+---
 
 
