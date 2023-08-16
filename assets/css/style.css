@@ -705,8 +705,8 @@ main .response{
     }
 
     .textera-size {
-        width: 45rem !important;
-       /* height: 40px !important;*/
+        max-height: 350px;
+        width: 100%;
         
       
 
