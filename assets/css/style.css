@@ -341,7 +341,7 @@ ul {
     flex-wrap: wrap;
     align-content: space-around;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     letter-spacing: 4px;
     padding: 2px;
     flex: 1 0 auto;
@@ -403,9 +403,12 @@ select {
 
 #feedback1 {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     flex: 1 0 auto;
+    align-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: column;
 
 
 }
