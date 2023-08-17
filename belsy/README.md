@@ -128,6 +128,13 @@ As a website administrator :
 ### Deployment 
 - The website was deployed to Github pages and can be accessed by the link: [Bel-Sy}](https://syricano.github.io/bel-sy/)
 
+### Credits
+
+- To  valeria_aksakova</a> on Freepik the background image was from freepik with her ownerwship of the image.
+- To Fontawsem, the social media footer icons were taken from there.
+- to actual bel'sy restaurant , the images were taken from their facebook page.
+
+
 
 
 
