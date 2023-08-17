@@ -15,12 +15,7 @@
     
 }
 
-/* USed colors :
 
-rgb(70 100 10 / 50%);
-rgb(255 170 0);
-rgba(0, 0, 0, 0.6);
-rgb(50 220 20 / 70%);;
 
 */
 
@@ -69,10 +64,6 @@ header h1 {
     font-size: x-large;
     font-weight: bold;
     text-align: left;
-    
-
-
-
 
 }
 
@@ -81,8 +72,6 @@ header p {
     font-size: x-small;
 }
 
-
-
 a {
     color: white;
     text-decoration:none;
@@ -90,7 +79,6 @@ a {
     text-transform: uppercase;
     z-index: 999 !important;
     scroll-behavior: smooth;
-
 
 }
 
@@ -116,9 +104,7 @@ nav {
     top: 5rem;
     scroll-behavior: smooth;
     
-    /*box-shadow: 0 2px 2px rgba(0, 0, 0, 0.6); */
-    /*display: none;*/
-    /*top: 100%;*/
+    
     transition: all 0.3s ease-in-out;
 
     z-index: -991;
@@ -191,7 +177,6 @@ span.bar::after {
 /*Nav toggle style*/
 
 #nav-toggle:checked~nav {
-    /*display: block;*/
     left: 0;
     opacity: 1;
     color: white;
@@ -217,7 +202,6 @@ main {
     background-image: url(../images/background.jpg); 
     background-repeat: no-repeat;
     background-size:cover;
-    /*style to get rid of space with header*/
 
     margin-top: 160px;
     font-size: 100%;
@@ -394,17 +378,7 @@ ul {
     font-weight: bold;
 }
 
-/*style for input and select box for booking form*/
-/* #booking input,
-select {
-    padding: 5px;
-    margin: 5px;
-    display: flex;
-    width: 270px;
-    height: 25px;
-    font-weight: bold;
 
-} */
 
 /* style for submit button for booking form*/
 #booking-submit {

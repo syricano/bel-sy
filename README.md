@@ -124,8 +124,8 @@ As a website administrator :
 - No errors were found when passing through the official w3c validator, but only warnings.
 - ### CSS
 - No errors nor warnings found when passing through The official w3c (Jigsaw) validator.
-- ### Accessibility and performance
-- 
+- ### Accessibility and performance 
+- Using lighthouse in devtools i confirmed that the website is fully accessible,  
 
 ### Deployment 
 - The website was deployed to Github pages and can be accessed by the link: [Bel-Sy}](https://syricano.github.io/bel-sy/)
