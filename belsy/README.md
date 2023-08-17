@@ -56,7 +56,7 @@ As a website administrator :
 - Home page has about us headline and description to tell the user chef story.
 - There is a gallary images of meals samples.
 - The images are fully grouped responsive to screen size on mobile and desktop.
-![Home Page](assets/images/home.jpg)
+![Home Page](assets/images/home.JPG)
 
 ---
 
@@ -66,6 +66,12 @@ As a website administrator :
 ![Menu section](assets/images/menu.jpg)
 
 ---
+
+#### Bookings
+
+- Booking section has a form to collect data from user.
+- User can provide , name, phone number, email, number of guests, date and local time.
+- User can request a table by submitting the form request.
 
 
 
