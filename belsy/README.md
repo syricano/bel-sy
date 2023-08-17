@@ -53,7 +53,7 @@ As a website administrator :
 ---
 
 ##### Home page
-- Home page has about us headline and description to tell the user chef story.
+- Home page has about us heading and description to tell the user chef story.
 - There is a gallary images of meals samples.
 - The images are fully grouped responsive to screen size on mobile and desktop.
 ![Home Page](assets/images/home.JPG)
@@ -72,6 +72,31 @@ As a website administrator :
 - Bookings section has a form to collect data from user.
 - User can provide , name, phone number, email, number of guests, date and local time.
 - User can request a table by submitting the form request.
+- After user submit request, a response message appears, it's stored in separate hidden response.html page.
+![Bookings page](/assets/images/booking.JPG)
+
+---
+
+
+##### Feedback
+
+- Booking section is a form for visiting customers to submit their feedback.
+- Feedback section has a form allows user to provide name, email , satisfaction radio button, and review.
+-After a feedback is submitted, a thanking message appears, it's stored in separate thankfeedback.html hidden page.
+![Feedback](/assets/images/feedback.JPG)
+
+---
+
+#### Contact section
+
+- Contact section has a heading with opening hours, then a table of working hours.
+- User can learn see contact details to get in touch accordingly.
+![Contact](/assets/images/contact.JPG)
+
+---
+
+### Testing
+
 
 
 
