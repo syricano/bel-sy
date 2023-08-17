@@ -793,9 +793,9 @@ font-size: 150%;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    align-content: flex-start;
+    align-content: center;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
 }
 
 
@@ -858,10 +858,7 @@ font-size: 150%;
     font-size: 150%;
 }
 
-.booking-div {
-    width: 100%;
-    display: block;
-}
+
     
 #feedback1 h3 {
     font-size: 150%;
@@ -876,6 +873,8 @@ select {
     margin: 5px;
 
 }
-
+.booking-div {
+    display: block;
+}
 
 }
