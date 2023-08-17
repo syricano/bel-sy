@@ -49,6 +49,7 @@ As a website administrator :
 
 ![NavBar desktop](assets/images/nav-bar.jpg)
 ![NavBar mobile](assets/images/nav-bar-mobile.jpg)
+![NavBar Mobile sample](/assets/images/nav-bar-mobile-sample.jpg)
 
 ---
 
@@ -57,6 +58,7 @@ As a website administrator :
 - There is a gallary images of meals samples.
 - The images are fully grouped responsive to screen size on mobile and desktop.
 ![Home Page](assets/images/home.JPG)
+![Home page on Mobile](/assets/images/home-mobile.jpg)
 
 ---
 
@@ -64,6 +66,7 @@ As a website administrator :
 - Menu section has a list of 4 columns ; appetizers, main course meals, desserts and drinks.
 - User can navigate through the lists to learn the menu served in the restaurant.
 ![Menu section](assets/images/menu.jpg)
+![Menu section on mobile](/assets/images/menu-mobile.jpg)
 
 ---
 
@@ -74,6 +77,7 @@ As a website administrator :
 - User can request a table by submitting the form request.
 - After user submit request, a response message appears, it's stored in separate hidden response.html page.
 ![Bookings page](/assets/images/booking.JPG)
+![Booking page on mobile](/assets/images/booking-mobile.jpg)
 
 ---
 
@@ -84,6 +88,7 @@ As a website administrator :
 - Feedback section has a form allows user to provide name, email , satisfaction radio button, and review.
 -After a feedback is submitted, a thanking message appears, it's stored in separate thankfeedback.html hidden page.
 ![Feedback](/assets/images/feedback.JPG)
+![Feedback on mobile](/assets/images/feedback-mobile.jpg)
 
 ---
 
@@ -92,10 +97,37 @@ As a website administrator :
 - Contact section has a heading with opening hours, then a table of working hours.
 - User can learn see contact details to get in touch accordingly.
 ![Contact](/assets/images/contact.JPG)
+![Contact on mobile](/assets/images/contact-mobile.jpg)
 
 ---
 
 ### Testing
+
+
+- I tested the website through desktop and mobile on different browser, edge, firefox, chrome, and andriod galaxy browser.
+- I used devtools and [Responsive Website design tester](https://responsivedesignchecker.com/).
+- I tested all the links and confirmed that all of them work as they are suppose to lead.
+
+### Bugs
+
+#### Solved bugs
+- 
+
+### Unsolved bugs
+- Nav-bar does not appear after clicking but it requires java or advanced level to resolve.
+
+### Validator testing
+
+- ### HTML
+- No errors were found when passing through the official w3c validator, but only warnings.
+- ### CSS
+- No errors nor warnings found when passing through The official w3c (Jigsaw) validator.
+- ### Accessibility and performance
+- 
+
+### Deployment 
+- The website was deployed to Github pages and can be accessed by the link: [Bel-Sy}](https://syricano.github.io/bel-sy/)
+
 
 
 
