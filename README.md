@@ -127,6 +127,8 @@ As a website administrator :
 - ### Accessibility and performance 
 - Using lighthouse in devtools i confirmed that the website is fully accessible and responsive to all mobile devices , desktop, except for one size of tablets, performance is 58 but other values are top.
 ![light house validation](/assets/images/lighthousevalidation.jpg) 
+![responsive image1](/assets/images/responsive1.jpg)
+![Responsive image](/assets/images/responsive2.jpg)
 
 ### Deployment 
 - The website was deployed to Github pages and can be accessed by the link: [Bel-Sy}](https://syricano.github.io/bel-sy/)
