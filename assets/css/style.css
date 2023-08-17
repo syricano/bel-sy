@@ -68,6 +68,7 @@ header h1 {
 }
 
 header p {
+    color: white;
     text-align: center;
     font-size: x-small;
 }
