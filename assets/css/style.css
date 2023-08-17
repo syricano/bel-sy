@@ -887,6 +887,10 @@ font-size: 150%;
     font-size: 150%;
 
 }
+.four-item {
+    display: flex;
+    align-items: flex-end;
+}
 .feedback-div {
     display: flex;
     flex-direction: column;
