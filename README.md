@@ -1,39 +1,145 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+#_Bel-Sy_Restaurant
 
-Welcome,
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+-----
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **July 26th, 2023**
+[Bel-Sy Restaurant] ( ) is a website for Restaurant.
+This is the homepage of Bel'Sy restaurant , located in Tournai Belgium. It helps the potential page visitors to become actual guests/customers, by  giving them  an idea of the cuisine ,food, drinks, service  quality and the environment of the place .  
+The website will target all users , whom are looking for a place in tournai to dine-in.
+The features that will be included in the websites, images of the food, drinks, tables will attract them and give them an imagination idea how the place looks .
 
-## Codeanywhere Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+## Technologies used:
 
-`python3 -m http.server`
+- HTML
+- CSS
+---
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+## User Stories
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+- As a user:
+- I want to be able to see some pictures of the meals, so I know if the food is good for me.
+- I want to see their drinks variety.
+- I want to see if they have a desserts.
+- I want to see if they have their contact details so I can get in touch.
+- I want to see their opening hours.
 
-`http_server`
+As a website administrator :
+- I want to have a website to show our menu and drinks to customers.
+- I want to have our contact details so people can call or message to book a table.
+- I want to add-delete meals when needed.
+- I want to add- delete images of gallary.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## Features 
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+### Home Page
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+##### Navigation
 
-To log into the Heroku toolbelt CLI:
+- positioned on the top of the page .
+- at the link side there are navigation's links:
+    - Home -leads to Home page.
+    - Menu - leads to Menu section.
+    - Booking - leads to Booking page.
+    - Feedback - leads to feedback page.
+    - Contact - leads to Contact section.
+- The link of the page that the user currently on is underlined.
+- The navigation bar is clear and easy to understand for the user.
+- The navigation bar is responsive and appears in a form of hamburger menu on mobile devices.
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+![NavBar desktop](assets/images/nav-bar.jpg)
+![NavBar mobile](assets/images/nav-bar-mobile.jpg)
+![NavBar Mobile sample](/assets/images/nav-bar-mobile-sample.jpg)
 
 ---
 
-Happy coding!
+##### Home page
+- Home page has about us heading and description to tell the user chef story.
+- There is a gallary images of meals samples.
+- The images are fully grouped responsive to screen size on mobile and desktop.
+![Home Page](assets/images/home.JPG)
+![Home page on Mobile](/assets/images/home-mobile.jpg)
+
+---
+
+#### Menu section
+- Menu section has a list of 4 columns ; appetizers, main course meals, desserts and drinks.
+- User can navigate through the lists to learn the menu served in the restaurant.
+![Menu section](assets/images/menu.jpg)
+![Menu section on mobile](/assets/images/menu-mobile.jpg)
+
+---
+
+#### Bookings
+
+- Bookings section has a form to collect data from user.
+- User can provide , name, phone number, email, number of guests, date and local time.
+- User can request a table by submitting the form request.
+- After user submit request, a response message appears, it's stored in separate hidden response.html page.
+![Bookings page](/assets/images/booking.JPG)
+![Booking page on mobile](/assets/images/booking-mobile.jpg)
+
+---
+
+
+##### Feedback
+
+- Booking section is a form for visiting customers to submit their feedback.
+- Feedback section has a form allows user to provide name, email , satisfaction radio button, and review.
+-After a feedback is submitted, a thanking message appears, it's stored in separate thankfeedback.html hidden page.
+![Feedback](/assets/images/feedback.JPG)
+![Feedback on mobile](/assets/images/feedback-mobile.jpg)
+
+---
+
+#### Contact section
+
+- Contact section has a heading with opening hours, then a table of working hours.
+- User can learn see contact details to get in touch accordingly.
+![Contact](/assets/images/contact.JPG)
+![Contact on mobile](/assets/images/contact-mobile.jpg)
+
+---
+
+### Testing
+
+
+- I tested the website through desktop and mobile on different browser, edge, firefox, chrome, and andriod galaxy browser.
+- I used devtools and [Responsive Website design tester](https://responsivedesignchecker.com/).
+- I tested all the links and confirmed that all of them work as they are suppose to lead.
+
+### Bugs
+
+#### Solved bugs
+- none
+- 
+
+### Unsolved bugs
+- Nav-bar does not appear after clicking but it requires java or advanced level to resolve.
+- the website is not fully responsive for the size 1024 x 600 px
+
+### Validator testing
+
+- ### HTML
+- No errors were found when passing through the official w3c validator, but only warnings.
+- ### CSS
+- No errors nor warnings found when passing through The official w3c (Jigsaw) validator.
+- ### Accessibility and performance
+- 
+
+### Deployment 
+- The website was deployed to Github pages and can be accessed by the link: [Bel-Sy}](https://syricano.github.io/bel-sy/)
+
+### Credits
+
+- To  valeria_aksakova</a> on Freepik the background image was from freepik with her ownerwship of the image.
+- To Fontawsem, the social media footer icons were taken from there.
+- to actual bel'sy restaurant , the images were taken from their facebook page.
+
+
+
+
+
+
+
+
