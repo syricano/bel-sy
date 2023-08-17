@@ -344,7 +344,6 @@ ul {
 #booking {
     background-color: rgba(0, 0, 0, 0.6);
     border-radius: 10px;
-    backdrop-filter: blur(5px);
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -570,6 +569,18 @@ main .response{
     font-size: x-large;
     margin: 50px 50px;
 }
+/**************************** Media query: styles for mobiles with 414 px wide **********************/
+@media screen and (min-width: 414px){
+    .label-size {
+        font-size: 120%;
+    }
+    
+}
+/*------------------------------------------------------------------------------------*/
+
+
+/************************** Media-query: Styles for mobiles or screen with 540px and up************************************/
+
 
 
 
