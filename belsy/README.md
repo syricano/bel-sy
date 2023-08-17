@@ -50,6 +50,22 @@ As a website administrator :
 ![NavBar desktop](assets/images/nav-bar.jpg)
 ![NavBar mobile](assets/images/nav-bar-mobile.jpg)
 
+---
+
+##### Home page
+- Home page has about us headline and description to tell the user chef story.
+- There is a gallary images of meals samples.
+- The images are fully grouped responsive to screen size on mobile and desktop.
+![Home Page](assets/images/home.jpg)
+
+---
+
+#### Menu section
+- Menu section has a list of 4 columns ; appetizers, main course meals, desserts and drinks.
+- User can navigate through the lists to learn the menu served in the restaurant.
+![Menu section](assets/images/menu.jpg)
+
+---
 
 
 
