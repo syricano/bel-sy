@@ -36,6 +36,19 @@ As a website administrator :
 
 ##### Navigation
 
+- positioned on the top of the page .
+- at the link side there are navigation's links:
+    - Home -leads to Home page.
+    - Menu - leads to Menu section.
+    - Booking - leads to Booking page.
+    - Feedback - leads to feedback page.
+    - Contact - leads to Contact section.
+- The link of the page that the user currently on is underlined.
+- The navigation bar is clear and easy to understand for the user.
+- The navigation bar is responsive and appears in a form of hamburger menu on mobile devices.
+
+![NavBar desktop](assets/images/nav-bar.jpg)
+![NavBar mobile](assets/images/nav-bar-mobile.jpg)
 
 
 
