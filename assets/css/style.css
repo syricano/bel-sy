@@ -593,12 +593,24 @@ main .response{
     font-size: x-large;
     margin: 50px 50px;
 }
+
+
+
+/**************************Media query: styles for mobile with 390px wide**************************/
+
+.two-item{
+    display: block;
+}
 /**************************** Media query: styles for mobiles with 414 px wide **********************/
 @media screen and (min-width: 414px){
     .label-size {
         font-size: 100%;
     }
     
+    .two-item{
+        display: flex;
+        flex-direction: column;
+    }
 }
 /*------------------------------------------------------------------------------------*/
 
