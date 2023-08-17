@@ -15,6 +15,15 @@
     
 }
 
+/* USed colors :
+
+rgb(70 100 10 / 50%);
+rgb(255 170 0);
+rgba(0, 0, 0, 0.6);
+rgb(50 220 20 / 70%);;
+
+*/
+
 /* General style*/
 body {
     min-height: 100vh;
@@ -563,6 +572,19 @@ footer {
     padding: 1rem;
 }
 
+#thanks, #response1 {
+    border-radius: 10px;
+    background-color: rgb(70 100 10 / 50%);
+    width: 240px;
+    height : 120px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
 /****************** Respone style ***************/
 
 main .response{ 
@@ -753,9 +775,22 @@ main .response{
 
 .thankfeedback{font-size: 150%;}
 
-
+#thanks, #response1 {
+    border-radius: 10px;
+    background-color: rgb(70 100 10 / 50%);
+    width: 660px;
+    height : 360px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
 
 }
+
+
 
 /* -----------------------------------------End of style 768px large screen size----------------------------------------------------*/
 /******************** Media-query Style for desktop 1024px and up ************/
@@ -795,9 +830,11 @@ main .response{
    .menu-div {
     font-size: 150%;
    }
+
 nav {
 font-size: 150%;
 }
+
 .about {
     display: flex;
     flex-direction: column;
@@ -817,6 +854,7 @@ font-size: 150%;
     font-size: 150%;
     text-align: left;
 }
+
 .divs-screen-size {
     margin: 20px;
     padding: 20px;
@@ -826,6 +864,7 @@ font-size: 150%;
 .booking-div {
     width: 1020px;
 }
+
 #booking h3 {
     font-size: 250%;
 }
@@ -862,7 +901,8 @@ font-size: 150%;
     flex-wrap: wrap;
     align-content: center;
     align-items: flex-start;
-    justify-content: space-around;}
+    justify-content: space-around;
+}
 
 .feedback-div form {
     padding: 2px;
@@ -889,4 +929,29 @@ select {
     display: block;
 }
 
+#thanks, #response1 {
+    border-radius: 10px;
+    background-color: rgb(70 100 10 / 50%);
+    width: 1020px;
+    height : 560px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
 }
+#thanks p, #response1 p {
+    font-size: 150%;
+}
+
+
+
+
+}
+
+
+
+
+
+
