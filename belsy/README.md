@@ -69,7 +69,7 @@ As a website administrator :
 
 #### Bookings
 
-- Booking section has a form to collect data from user.
+- Bookings section has a form to collect data from user.
 - User can provide , name, phone number, email, number of guests, date and local time.
 - User can request a table by submitting the form request.
 
