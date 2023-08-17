@@ -572,7 +572,7 @@ main .response{
 /**************************** Media query: styles for mobiles with 414 px wide **********************/
 @media screen and (min-width: 414px){
     .label-size {
-        font-size: 120%;
+        font-size: 100%;
     }
     
 }
@@ -631,6 +631,7 @@ main .response{
     }
     a {
         color: rgba(230, 215, 215, 0.7);
+        
     }
 
     header p {
@@ -679,7 +680,7 @@ main .response{
         display: flex;
         flex-direction: row;
         justify-content: center;
-        font-size: 130%;
+        font-size: 100%;
     }
     
 
@@ -687,12 +688,18 @@ main .response{
 
 
      .booking-div {
+        display: flex;
         background-color: rgba(0, 0, 0, 0.6);
         border-radius: 10px;
-        padding: 10px px;
+        padding: 10px ;
         position: relative;
         height: fit-content;
         width: 730px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        align-content: space-around;
     }
     /*******Feedback ******/
 
