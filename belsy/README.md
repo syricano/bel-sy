@@ -111,10 +111,12 @@ As a website administrator :
 ### Bugs
 
 #### Solved bugs
+- none
 - 
 
 ### Unsolved bugs
 - Nav-bar does not appear after clicking but it requires java or advanced level to resolve.
+- the website is not fully responsive for the size 1024 x 600 px
 
 ### Validator testing
 
