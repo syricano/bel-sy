@@ -591,6 +591,7 @@ main .response{
     align-items: stretch;
    }
     
+   
 }
 
 
@@ -730,6 +731,7 @@ main .response{
         justify-content: flex-start;
     }
     
+    
 
     .screen-size {
         width: 45rem !important;
@@ -738,11 +740,18 @@ main .response{
     .textera-size {
         max-height: 350px;
         width: 100%;
+        font-size: 100%;
         
       
 
     }
    
+
+.response {
+    font-size: 150%;
+}
+
+.thankfeedback{font-size: 150%;}
 
 
 
@@ -798,6 +807,9 @@ font-size: 150%;
     align-items: center;
 }
 
+.response {
+    font-size: 150%;
+}
 
 .about p {
     margin: 10px ;
