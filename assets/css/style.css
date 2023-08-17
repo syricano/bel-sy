@@ -484,11 +484,12 @@ input {
 .two-item {
     
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
-    align-content: flex-start;
-    justify-content: flex-start;
-    align-items: baseline; 
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
 
 }
 
@@ -504,8 +505,8 @@ input {
     flex-direction: row;
     flex-wrap: nowrap;
     align-content: center;
-    align-items: baseline;
-    justify-content: flex-end;
+    align-items: flex-start;
+    justify-content: center;
     margin: 5px;
         } 
 
