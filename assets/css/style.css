@@ -762,8 +762,26 @@ main .response{
         margin: 10px ;
         padding: 10px;
     }
-
-   
+#menu h4 {
+    font-size: 150%;
+}
+#contact h3 {
+    font-size: 200%;
+        margin: 10px ;
+        padding: 10px;
+}
+   #contact h4 {
+    font-size: 150%;
+   }
+   #contact td {
+    font-size: 150%;
+   }
+   .label-size {
+    font-size: 150%;
+   }
+   .menu-div {
+    font-size: 150%;
+   }
 nav {
 font-size: 150%;
 }
@@ -782,7 +800,9 @@ font-size: 150%;
     font-size: 150%;
     text-align: left;
 }
-
+.divs-screen-size {
+    margin: 20px;
+    padding: 20px;
 
 
 
