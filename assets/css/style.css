@@ -581,21 +581,41 @@ main .response{
 
 /************************** Media-query: Styles for mobiles or screen with 540px and up************************************/
 
-
+@media screen and (min-width:540px) {
+   .menu-div {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    align-items: stretch;
+   }
+    
+}
 
 
 /************************** media-query :styles for tablets or desktop larger then 768 px and up*******************************/
 @media screen and (min-width:768px) {
 
     /* Header*/
+    .header-container  {
+            display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    }
 
     /* nav style in header for wide screen*/
     nav {
         display: flex;
         position: relative;
+        
         /*width: fit-content; */
         padding-left: 1rem;
         opacity: 1;
+        height: 4rem;
+        top: 1rem;
 
     }
 
@@ -606,7 +626,11 @@ main .response{
 
     /*h1 header style  for wide screen*/
     header h1 {
-        font-size: x-large;
+        font-size: 200%;
+
+    }
+    a {
+        color: rgba(230, 215, 215, 0.7);
     }
 
     header p {
