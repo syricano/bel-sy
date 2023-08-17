@@ -30,4 +30,15 @@ As a website administrator :
 - I want to add-delete meals when needed.
 - I want to add- delete images of gallary.
 
+## Features 
+
+### Home Page
+
+##### Navigation
+
+
+
+
+
+
 
