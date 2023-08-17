@@ -125,7 +125,8 @@ As a website administrator :
 - ### CSS
 - No errors nor warnings found when passing through The official w3c (Jigsaw) validator.
 - ### Accessibility and performance 
-- Using lighthouse in devtools i confirmed that the website is fully accessible,  
+- Using lighthouse in devtools i confirmed that the website is fully accessible and responsive to all mobile devices , desktop, except for one size of tablets, performance is 58 but other values are top.
+![light house validation](/assets/images/lighthousevalidation.jpg) 
 
 ### Deployment 
 - The website was deployed to Github pages and can be accessed by the link: [Bel-Sy}](https://syricano.github.io/bel-sy/)
