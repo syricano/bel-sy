@@ -101,6 +101,7 @@ a {
 
 /*Nav Style*/
 nav {
+    cursor: pointer;
     position: fixed;
     width: 100%;
     height: 5rem;
@@ -491,7 +492,7 @@ input {
     justify-content: space-between;
 }
 
-}
+
 
 .label-size {
     margin: 2px;
@@ -781,11 +782,7 @@ main .response{
    #contact td {
     font-size: 150%;
    }
-   .label-size {
-    font-size: 150%;
-    margin: 5px;
-    padding: 5px;
-   }
+   
    .menu-div {
     font-size: 150%;
    }
@@ -820,9 +817,8 @@ font-size: 150%;
 #booking h3 {
     font-size: 250%;
 }
-.label-size {
-    font-size: 150%;
-}
+
+
 .booking-div form {
     display: flex;
     flex-direction: column;
@@ -832,6 +828,45 @@ font-size: 150%;
     align-items: stretch;
 
 }
+
+.two-item ,.four-item {
+    padding: 2px;
+    margin: 2px;
+    font-size: 150%;
+
+}
+.feedback-div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.two-item {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: flex-start;
+    justify-content: space-around;}
+
+.feedback-div form {
+    padding: 2px;
+    margin: 2px;
+    font-size: 150%;
+}
+
+
+    
+#feedback1 h3 {
+    font-size: 150%;
+    margin: 20px;
+    padding: 20px;
+}
+
+
+
 
 
 }
