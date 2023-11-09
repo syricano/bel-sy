@@ -75,7 +75,6 @@ a {
 /*Nav Style*/
 nav {
     cursor: pointer;
-    position: inline-block;
     width: 100%;
     scroll-behavior:smooth;       
     transition: all 0.3s ease-in-out;
@@ -558,6 +557,10 @@ main .response{
     main{
         margin-top: 12rem;
         height: 100vh;
+    }
+    footer {
+        font-size: small;
+
     }
 }
 /*------------------------------------------------------------------------------------*/
