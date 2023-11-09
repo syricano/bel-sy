@@ -474,6 +474,9 @@ footer {
     font-size: larger;
 
 }
+iframe {
+    margin: 10px
+}
 /***** Contact section style *******/
 #contact {
     border-radius: 10px;
