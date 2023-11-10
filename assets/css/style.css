@@ -203,7 +203,7 @@ main {
 
 /******************** Gallary section style ***********/
 
-section#gallary {
+#gallery {
     display: flex;
     flex-wrap: wrap;
     align-content: space-between;
