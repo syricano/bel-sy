@@ -25,10 +25,11 @@ body {
     flex-direction: column;
     min-height: 100vh;
     max-width: 290vw;
-    color: rgb(255 166 0 / 50%);
+    color: whitesmoke;
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgba(0, 0, 0);
-    font-size: large;
+    font-size: 150%;
+    
     width: 100%;
 
 }
@@ -37,23 +38,24 @@ body {
 header {
     position:fixed;
     padding: 5px;
-    background-color: rgb(0, 0, 0);
+    background-color: #333;
     font-family: cursive, sans-serif;
     z-index: 99;
     width: 100%;
     top: 0;
+    color: red;
     
     
     
 }
 header h1{
     text-align: center;
-    font-size: xx-large;
+    color: red;
 }
 
 
 a {
-    color: white;
+    color: whitesmoke;
     text-decoration:none;
     cursor:pointer;
     text-transform: uppercase;
@@ -65,13 +67,13 @@ a {
 /* Nav list style*/
 .nav-list {
     /* Nav list style to remove the bullet points*/
-    font-size: 75%;
     letter-spacing: 4px;
 }
 
 /* active style*/
 *.active {
     border-bottom: 2px solid white;
+    color: #ff8c00;
 }
 
 /*Nav Style*/
@@ -97,7 +99,6 @@ nav {
     align-items: center;
     width: 25px;
     height: 25px;
-    font-size: 2rem;
 }
 
 span.bar {
@@ -166,7 +167,6 @@ span.bar::after {
 main {
   
    flex: 1 0; 
-   margin-top: 10rem;   
    background-size:cover;    
    text-align: center;
    height: 100vh;
@@ -185,24 +185,16 @@ main {
 
 /* Style about us*/
 
-/* Style the div of about us*/
 #about div {
-    padding: 5px;
-    
+    padding: 5px;    
     text-align: left;
-    /*width: max-content;*/
 
-    /*style for the h1 about us*/
 }
-
 .about  h3 {
     margin-bottom: 10px;
-    font-size: 100%;
 
 }
-.about p {
-    font-size: 75%;
-}
+
 
 /******************** Gallary section style ***********/
 
@@ -250,13 +242,12 @@ main {
 
 .divs-screen-size li {
     margin: 1rem;
-    color: rgb(255 166 0 / 50%);;
+    color: green;
 }
 
 .divs-screen-size ol h5 {
     font-weight: bold;
-    color:  rgb(255 170 0);
-    font-size: 100%;
+    color: greenyellow;
 
 }
 
@@ -265,16 +256,14 @@ main {
 main h3 {
     font-weight: bold;
     text-transform: uppercase;
-    font-size: 100%;
-    color: brown;
+    color: gold;
 }
 
 
 /* h4 headline style */
 main h4 {
     text-decoration: underline;
-    font-size: 100%;
-    color: rgb(255 170 0);
+    color: red;
     
 
 }
@@ -377,7 +366,6 @@ ul {
 .feedback-div form {
     padding: 2px;
     margin: 2px;
-    font-size: 100%;
             }
 
 
@@ -416,7 +404,6 @@ input {
 #feedback1 label {
     text-align: left;
     text-align: center;
-    font-size: 75%;
 }
 
 /* style for every 2 items in the feedback form , it wa easier to style it this way*/
@@ -434,7 +421,6 @@ input {
 
 .label-size {
     margin: 2px;
-    font-size: 75%;
 }
 
 /* style for group of 4 items in feedback form*/
@@ -462,6 +448,9 @@ input {
     padding: 5px;
 }
 
+.nav-list li a.active {
+    color: #ff8c00; 
+}
 /*Footer Style*/
 footer {
     position: relative;
@@ -469,12 +458,11 @@ footer {
     color: white;
     width: 100%;
     height: 3rem;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: #333;
     z-index: 99;
     text-align: center;
     margin-bottom: 5px;
     margin-top: 5px;
-    font-size: larger;
 
 }
 iframe {
@@ -497,12 +485,10 @@ iframe {
     text-transform: uppercase;
 }
 #contact td {
-    font-size: 75%;
     padding: 1rem;
     color: rgb(255 166 0 / 50%);;
 }
 .address {
-    font-size: 75%;
     padding: 1rem;
 }
 
@@ -524,7 +510,6 @@ iframe {
 main .response{ 
     width: fit-content;
     height: 100vh;
-    font-size: x-large;
     margin: 50px 50px;
 }
 
@@ -537,32 +522,18 @@ main .response{
 }
 /**************************** Media query: styles for mobiles with 280 px wide **********************/
 @media screen and (min-width: 280px){
-    .label-size {
-        font-size: 100%;
-    }
+    
     
     .two-item{
         display: flex;
         flex-direction: column;
     }
-
-    header, header h1{
-        font-size: large;
-    }
-    body{
-        font-size: medium;
-    }
-    nav{
-        font-size: medium;
-    }
+ 
     main{
         margin-top: 12rem;
         height: 100vh;
     }
-    footer {
-        font-size: small;
-
-    }
+   
 }
 /*------------------------------------------------------------------------------------*/
 
@@ -601,10 +572,8 @@ main .response{
         position: relative;
         
         /*width: fit-content; */
-        padding-left: 1rem;
         opacity: 1;
-        height: 4rem;
-        top: 1rem;
+        height: 2rem;
 
     }
 
@@ -614,19 +583,13 @@ main .response{
     }
 
     /*h1 header style  for wide screen*/
-    header h1 {
-        font-size: 200%;
-
-    }
+   
     a {
-        color: rgba(230, 215, 215, 0.7);
+        color: var(--color-primary);
         
     }
 
-    header p {
-        font-size: large;
-    }
-
+   
     /* to hide the nav toggle span when wide screen applied*/
     .nav-toggle-label {
         display: none;
@@ -650,7 +613,6 @@ main .response{
     /*to style nav list font size for wide screen*/
     .nav-list li {
         padding-left: 2rem;
-        font-size: 150%;
         font-weight: bold;
     }
 
@@ -669,7 +631,6 @@ main .response{
         display: flex;
         flex-direction: row;
         justify-content: center;
-        font-size: 100%;
     }
     
 
@@ -697,7 +658,6 @@ main .response{
     #feedback form {
         width: 100%;
         height: 100%;
-        font-size: x-large;
     }
 
     .feedback-div {
@@ -725,18 +685,13 @@ main .response{
     .textera-size {
         max-height: 350px;
         width: 100%;
-        font-size: 100%;
         
       
 
     }
    
 
-.response {
-    font-size: 150%;
-}
 
-.thankfeedback{font-size: 150%;}
 
 #thanks, #response1 {
     border-radius: 10px;
@@ -760,43 +715,23 @@ main .response{
 @media screen and (min-width:1024px) { 
 
     h1 {
-        font-size: 300%;
     }
     header p {
-        font-size: 150%;
     }
     .about h3 {
-        font-size: 250%;
         margin: 10px ;
         padding: 10px;
     }
     #menu h3 {
-        font-size: 250%;
         margin: 10px ;
         padding: 10px;
     }
-#menu h4 {
-    font-size: 200%;
-}
+
 #contact h3 {
-    font-size: 250%;
         margin: 10px ;
         padding: 10px;
 }
-   #contact h4 {
-    font-size: 200%;
-   }
-   #contact td {
-    font-size: 150%;
-   }
-   
-   .menu-div {
-    font-size: 150%;
-   }
 
-nav {
-font-size: 150%;
-}
 
 .about {
     display: flex;
@@ -807,14 +742,9 @@ font-size: 150%;
     align-items: center;
 }
 
-.response {
-    font-size: 150%;
-}
-
 .about p {
     margin: 10px ;
     padding: 10px;
-    font-size: 150%;
     text-align: left;
 }
 
@@ -828,11 +758,6 @@ font-size: 150%;
     width: 1020px;
 }
 
-#booking h3 {
-    font-size: 250%;
-}
-
-
 .booking-div form {
     display: flex;
     flex-direction: column;
@@ -840,14 +765,12 @@ font-size: 150%;
     align-content: flex-start;
     justify-content: flex-start;
     align-items: stretch;
-    font-size: 150%;
 
 }
 
 .two-item ,.four-item {
     padding: 2px;
     margin: 2px;
-    font-size: 150%;
 
 }
 .four-item {
@@ -874,13 +797,11 @@ font-size: 150%;
 .feedback-div form {
     padding: 2px;
     margin: 2px;
-    font-size: 150%;
 }
 
 
     
 #feedback1 h3 {
-    font-size: 150%;
     margin: 20px;
     padding: 20px;
 }
@@ -909,7 +830,6 @@ select {
     justify-content: center;
 }
 #thanks p, #response1 p {
-    font-size: 150%;
 }
 
 
