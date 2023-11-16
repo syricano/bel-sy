@@ -34,7 +34,8 @@ body {
 
 /*Header Style*/
 header {
-    position:fixed;
+    height: 59px;
+    position:relative;
     padding: 5px;
     background-color: #333;
     font-family: cursive, sans-serif;
@@ -222,7 +223,7 @@ main {
 }
 
 #menu {
-    display: flex;
+    display: block;
     justify-content: space-around;
     align-items: center;
     flex-direction: row;
@@ -538,6 +539,7 @@ main .response{
     main{
         margin-top: 12rem;
     }
+    
    
 }
 /*------------------------------------------------------------------------------------*/
@@ -546,12 +548,15 @@ main .response{
 /************************** Media-query: Styles for mobiles or screen with 540px and up************************************/
 
 @media screen and (min-width:540px) {
-   .menu-div {
-    display: flex;
+   /*.menu-div {
     position: relative;
     flex-direction: row;
     align-items: stretch;
-   }
+   }*/
+   #menu {
+    display: flex;
+    align-items: flex-start;
+}
     
    
 }
@@ -574,6 +579,7 @@ main .response{
         font-size: 1rem;
 
     }
+
 
     /* nav style in header for wide screen*/
     nav {
@@ -636,11 +642,11 @@ main .response{
     align-content: flex-end;
     justify-content: center;
  }
-    .menu-div {
+    /*.menu-div {
         display: flex;
         flex-direction: row;
         justify-content: center;
-    }
+    }*/
     
 
     
