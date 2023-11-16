@@ -41,15 +41,13 @@ header {
     z-index: 99;
     width: 100%;
     top: 0;
-    color: red;
-    
-    
-    
-}
-header h1{
     text-align: center;
-    color: red;
+    color: whitesmoke;
+    
+    
+    
 }
+
 
 
 a {
@@ -539,7 +537,6 @@ main .response{
  
     main{
         margin-top: 12rem;
-        height: 100vh;
     }
    
 }
