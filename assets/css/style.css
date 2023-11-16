@@ -34,7 +34,7 @@ body {
 
 /*Header Style*/
 header {
-    height: 59px;
+    height: 80px;
     position:relative;
     padding: 5px;
     background-color: #333;
@@ -50,9 +50,8 @@ header {
 }
 
 
-
 a {
-    color: whitesmoke;
+    color: var(--color-primary);
     text-decoration:none;
     cursor:pointer;
     text-transform: uppercase;
@@ -548,11 +547,11 @@ main .response{
 /************************** Media-query: Styles for mobiles or screen with 540px and up************************************/
 
 @media screen and (min-width:540px) {
-   /*.menu-div {
+   .menu-div {
     position: relative;
     flex-direction: row;
     align-items: stretch;
-   }*/
+   }
    #menu {
     display: flex;
     align-items: flex-start;
@@ -567,7 +566,7 @@ main .response{
 
     /* Header*/
     .header-container  {
-            display: flex;
+    display: flex;
     width: 100%;
     align-items: center;
     flex-wrap: wrap;
@@ -599,10 +598,7 @@ main .response{
 
     /*h1 header style  for wide screen*/
    
-    a {
-        color: var(--color-primary);
-        
-    }
+    
 
    
     /* to hide the nav toggle span when wide screen applied*/
@@ -642,11 +638,11 @@ main .response{
     align-content: flex-end;
     justify-content: center;
  }
-    /*.menu-div {
+    .menu-div {
         display: flex;
         flex-direction: row;
         justify-content: center;
-    }*/
+    }
     
 
     
@@ -729,10 +725,7 @@ main .response{
 /******************** Media-query Style for desktop 1024px and up ************/
 @media screen and (min-width:1024px) { 
 
-    h1 {
-    }
-    header p {
-    }
+    
     .about h3 {
         margin: 10px ;
         padding: 10px;
@@ -844,8 +837,7 @@ select {
     align-content: center;
     justify-content: center;
 }
-#thanks p, #response1 p {
-}
+
 
 
 
