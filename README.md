@@ -77,7 +77,7 @@ As a website administrator :
 - User can provide , name, phone number, email, number of guests, date and local time.
 - User can request a table by submitting the form request.
 - After user submit request, a response message appears, it's stored in separate hidden response.html page.
-![Bookings page](/assets/images/booking.JPG)
+![Bookings page](/assets/images/booking.jpg)
 ![Booking page on mobile](/assets/images/booking-mobile.jpg)
 
 ---
@@ -88,7 +88,7 @@ As a website administrator :
 - Booking section is a form for visiting customers to submit their feedback.
 - Feedback section has a form allows user to provide name, email , satisfaction radio button, and review.
 -After a feedback is submitted, a thanking message appears, it's stored in separate thankfeedback.html hidden page.
-![Feedback](/assets/images/feedback.JPG)
+![Feedback](/assets/images/feedback.jpg)
 ![Feedback on mobile](/assets/images/feedback-mobile.jpg)
 
 ---
@@ -97,7 +97,7 @@ As a website administrator :
 
 - Contact section has a heading with opening hours, then a table of working hours.
 - User can learn see contact details to get in touch accordingly.
-![Contact](/assets/images/contact.JPG)
+![Contact](/assets/images/contact.jpg)
 ![Contact on mobile](/assets/images/contact-mobile.jpg)
 
 ---
