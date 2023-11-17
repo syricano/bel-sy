@@ -135,11 +135,15 @@ You can clone the repository to your local machine via copying this link (https:
 
 - ### HTML
 - No errors were found when passing through the official w3c validator, but only warnings.
+
 - ### CSS
 - No errors nor warnings found when passing through The official w3c (Jigsaw) validator.
 - ### Accessibility and performance 
 - Using lighthouse in devtools i confirmed that the website is fully accessible and responsive to all mobile devices , desktop, except for one size of tablets, performance is 58 but other values are top.
-![light house validation](/assets/images/lighthousevalidation.jpg) 
+![light house validation](/assets/images/lighthouse.jpg) 
+![W3C HTML validation](/assets/images/w3html1.jpg)
+![W3C HTML validation](/assets/images/w3html2.jpg)
+![W3C CSS validation](/assets/images/w3css.jpg)
 ![responsive image1](/assets/images/responsive1.jpg)
 ![Responsive image](/assets/images/responsive2.jpg)
 
