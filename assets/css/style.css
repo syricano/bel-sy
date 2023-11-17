@@ -76,6 +76,7 @@ a {
 nav {
     cursor: pointer;
     width: 100%;
+    text-align: left;
     scroll-behavior:smooth;       
     transition: all 0.3s ease-in-out;
     z-index: -991;
@@ -171,26 +172,21 @@ main {
 }
 
 /******************** About us Style ***************/
-#about-us {
-   
-    width: 100%;
-    padding: 5px;
-
-}
 
 
-/* Style about us*/
 
-#about div {
+
+#about-us{
     padding: 5px;    
     text-align: left;
-
-}
-.about  h3 {
+    margin-top: 25px;
     margin-bottom: 10px;
+    text-align: center;
 
 }
-
+h2, h3{
+    color: var(--color-primary);
+}
 
 /******************** Gallary section style ***********/
 
@@ -444,7 +440,7 @@ input {
 }
 
 .nav-list li a.active {
-    color: #ff8c00; 
+    color: var(--color-primary); 
 }
 /*Footer Style*/
 footer {
@@ -524,6 +520,7 @@ main .response{
     header {
         padding: 0;
     }
+   
     
 
     .two-item{
@@ -722,7 +719,7 @@ main .response{
 @media screen and (min-width:1024px) { 
 
     
-    .about h3 {
+    .about h2 {
         margin: 10px ;
         padding: 10px;
     }
