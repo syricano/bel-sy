@@ -444,7 +444,7 @@ iframe {
 }
 #contact td {
     padding: 1rem;
-    color: rgb(255 166 0 / 50%);;
+    color: var(--color-primary);
 }
 .address {
     padding: 1rem;
