@@ -241,14 +241,10 @@ h3 {
 
 .divs-screen-size li {
     margin: 1rem;
-    color: green;
+    color: gold;
 }
 
-.divs-screen-size ol h5 {
-    font-weight: bold;
-    color: greenyellow;
 
-}
 
 
 /* h3 headline style*/
@@ -536,7 +532,7 @@ main .response{
     }
  
     main{
-        margin-top: 12rem;
+        margin-top: 6rem;
     }
     
    
