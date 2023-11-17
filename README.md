@@ -48,7 +48,7 @@ As a website administrator :
 - The navigation bar is clear and easy to understand for the user.
 - The navigation bar is responsive and appears in a form of hamburger menu on mobile devices.
 
-![NavBar desktop](assets/images/nav-bar.jpg)
+![NavBar desktop](assets/images/nav-bar-mobile.jpg)
 ![NavBar mobile](assets/images/nav-bar-mobile.jpg)
 ![NavBar Mobile sample](/assets/images/nav-bar-mobile-sample.jpg)
 
