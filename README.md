@@ -1,5 +1,5 @@
 # _Bel-Sy_Restaurant
-![Bel-SY Restaurant](/assets/images/belsy-main.jpg)
+![Bel-SY Restaurant](assets/images/belsy-main.jpg)
 
 
 -----
@@ -59,7 +59,7 @@ As a website administrator :
 - There is a gallary images of meals samples.
 - The images are fully grouped responsive to screen size on mobile and desktop.
 ![Home Page](assets/images/home.JPG)
-![Home page on Mobile](/assets/images/home-mobile.jpg)
+![Home page on Mobile](assets/images/home-mobile.jpg)
 
 ---
 
@@ -67,7 +67,7 @@ As a website administrator :
 - Menu section has a list of 4 columns ; appetizers, main course meals, desserts and drinks.
 - User can navigate through the lists to learn the menu served in the restaurant.
 ![Menu section](assets/images/menu.jpg)
-![Menu section on mobile](/assets/images/menu-mobile.jpg)
+![Menu section on mobile](assets/images/menu-mobile.jpg)
 
 ---
 
@@ -77,8 +77,8 @@ As a website administrator :
 - User can provide , name, phone number, email, number of guests, date and local time.
 - User can request a table by submitting the form request.
 - After user submit request, a response message appears, it's stored in separate hidden response.html page.
-![Bookings page](/assets/images/booking.jpg)
-![Booking page on mobile](/assets/images/booking-mobile.jpg)
+![Bookings page](assets/images/booking.jpg)
+![Booking page on mobile](assets/images/booking-mobile.jpg)
 
 ---
 
@@ -88,8 +88,8 @@ As a website administrator :
 - Booking section is a form for visiting customers to submit their feedback.
 - Feedback section has a form allows user to provide name, email , satisfaction radio button, and review.
 -After a feedback is submitted, a thanking message appears, it's stored in separate thankfeedback.html hidden page.
-![Feedback](/assets/images/feedback.jpg)
-![Feedback on mobile](/assets/images/feedback-mobile.jpg)
+![Feedback](assets/images/feedback.jpg)
+![Feedback on mobile](assets/images/feedback-mobile.jpg)
 
 ---
 
@@ -97,8 +97,8 @@ As a website administrator :
 
 - Contact section has a heading with opening hours, then a table of working hours.
 - User can learn see contact details to get in touch accordingly.
-![Contact](/assets/images/contact.jpg)
-![Contact on mobile](/assets/images/contact-mobile.jpg)
+![Contact](assets/images/contact.jpg)
+![Contact on mobile](assets/images/contact-mobile.jpg)
 
 ---
 
@@ -141,12 +141,12 @@ You can clone the repository to your local machine via copying this link (https:
 - No errors nor warnings found when passing through The official w3c (Jigsaw) validator.
 - ### Accessibility and performance 
 - Using lighthouse in devtools i confirmed that the website is fully accessible and responsive to all mobile devices , desktop, except for one size of tablets, performance is 58 but other values are top.
-![light house validation](/assets/images/lighthouse.jpg) 
-![W3C HTML validation](/assets/images/w3html1.jpg)
-![W3C HTML validation](/assets/images/w3html2.jpg)
-![W3C CSS validation](/assets/images/w3css.jpg)
-![responsive image1](/assets/images/responsive1.jpg)
-![Responsive image](/assets/images/responsive2.jpg)
+![light house validation](assets/images/lighthouse.jpg) 
+![W3C HTML validation](assets/images/w3html1.jpg)
+![W3C HTML validation](assets/images/w3html2.jpg)
+![W3C CSS validation](assets/images/w3css.jpg)
+![responsive image1](assets/images/responsive1.jpg)
+![Responsive image](assets/images/responsive2.jpg)
 
 ### Deployment 
 - The website was deployed to Github pages and can be accessed by the link: [Bel-Sy}](https://syricano.github.io/bel-sy/)
