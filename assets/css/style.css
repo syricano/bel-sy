@@ -15,10 +15,6 @@
     
 }
 
-
-
-
-
 /* General style*/
 body {
     display: flex;
@@ -44,12 +40,8 @@ header {
     top: 0;
     text-align: center;
     color: whitesmoke;
-    
-    
-    
 }
-
-
+/* Anchors style*/
 a {
     color: var(--color-primary);
     text-decoration:none;
@@ -57,13 +49,6 @@ a {
     text-transform: uppercase;
     z-index: 999 !important;
     scroll-behavior: smooth;
-
-}
-
-/* Nav list style*/
-.nav-list {
-    /* Nav list style to remove the bullet points*/
-    letter-spacing: 4px;
 }
 
 /* active style*/
@@ -83,10 +68,12 @@ nav {
     opacity: 0;
     color: transparent;
     background-color: rgb(70 100 10 / 50%);
-
-
 }
- 
+/* Nav list style*/
+.nav-list {
+    /* Nav list style to remove the bullet points*/
+    letter-spacing: 4px;
+} 
 
 /* Style the Nav Bar show hide span*/
 
@@ -147,7 +134,6 @@ span.bar::after {
 
 
 /*Nav toggle style*/
-
 #nav-toggle:checked~nav {
     left: 0;
     opacity: 1;
@@ -171,11 +157,7 @@ main {
 
 }
 
-/******************** About us Style ***************/
-
-
-
-
+/*About us Style */
 #about-us{
     padding: 5px;    
     text-align: left;
@@ -184,11 +166,16 @@ main {
     text-align: center;
 
 }
-h2, h3{
+h2{
+    padding: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
     color: var(--color-primary);
 }
-
-/******************** Gallary section style ***********/
+h3 {
+    color: red;
+}
+/*Gallary section style */
 
 #gallery {
     display: flex;
@@ -214,9 +201,7 @@ h2, h3{
 .gallary-div {
     border: 2px solid black;
 
-
 }
-
 #menu {
     display: block;
     justify-content: space-around;
@@ -225,32 +210,18 @@ h2, h3{
     width: 100%;
     padding: 20px;
 }
-h3 {
-    padding: 5px;
+section h2 {
+    margin: 10px;
+    padding: 10px;
 }
-
-
 .divs-screen-size {
     margin: 2px;
     padding: 2px;
 }
-
 .divs-screen-size li {
     margin: 1rem;
     color: gold;
 }
-
-
-
-
-/* h3 headline style*/
-main h3 {
-    font-weight: bold;
-    text-transform: uppercase;
-    color: gold;
-}
-
-
 /* h4 headline style */
 main h4 {
     text-decoration: underline;
@@ -258,10 +229,6 @@ main h4 {
     
 
 }
-
-
-
-
 
 /*style lists in menu*/
 #menu ol,
@@ -327,7 +294,7 @@ ul {
 
 
 
-/******************** Feedback ******************************/
+/* Feedback */
 /* style feedback for div container*/
 
 #feedback1 {
@@ -357,7 +324,7 @@ ul {
 .feedback-div form {
     padding: 2px;
     margin: 2px;
-            }
+    }
 
 
 
@@ -426,11 +393,11 @@ input {
     margin: 5px;
         } 
 
-        #feedback {
-            width: 100%;
-            min-height: 100px;
-            max-height: 300px;
-        }
+#feedback {
+    width: 100%;
+    min-height: 100px;
+    max-height: 300px;
+    }
 
 /*style for submit button in feedback form*/
 
@@ -459,7 +426,7 @@ footer {
 iframe {
     margin: 10px
 }
-/***** Contact section style *******/
+/* Contact section style */
 #contact {
     width: 100%;
     display: flex;
@@ -496,7 +463,7 @@ iframe {
     justify-content: center;
 }
 
-/****************** Respone style ***************/
+/* Respone style */
 
 main .response{ 
     width: fit-content;
@@ -506,12 +473,12 @@ main .response{
 
 
 
-/**************************Media query: styles for mobile with 390px wide**************************/
+/*Media query: styles for mobile with 390px wide*/
 
 .two-item{
     display: block;
 }
-/**************************** Media query: styles for mobiles with 280 px wide **********************/
+/* Media query: styles for mobiles with 280 px wide*/
 @media screen and (min-width: 280px){
     
     body {
@@ -534,10 +501,9 @@ main .response{
     
    
 }
-/*------------------------------------------------------------------------------------*/
 
 
-/************************** Media-query: Styles for mobiles or screen with 540px and up************************************/
+/** Media-query: Styles for mobiles or screen with 540px and up*/
 
 @media screen and (min-width:540px) {
    .menu-div {
@@ -554,7 +520,7 @@ main .response{
 }
 
 
-/************************** media-query :styles for tablets or desktop larger then 768 px and up*******************************/
+/* media-query :styles for tablets or desktop larger then 768 px and up*/
 @media screen and (min-width:768px) {
 
     /* Header*/
@@ -566,6 +532,7 @@ main .response{
     justify-content: center;
     align-content: center;
     flex-direction: column;
+    font-size: larger;
     }
     body {
         font-size: 1rem;
@@ -654,7 +621,7 @@ main .response{
         align-items: flex-start;
         align-content: space-around;
     }
-    /*******Feedback ******/
+    /*Feedback */
 
 
     /* to align content to left for wide screen*/
@@ -714,8 +681,7 @@ main .response{
 
 
 
-/* -----------------------------------------End of style 768px large screen size----------------------------------------------------*/
-/******************** Media-query Style for desktop 1024px and up ************/
+/*Media-query Style for desktop 1024px and up */
 @media screen and (min-width:1024px) { 
 
     
@@ -830,10 +796,6 @@ select {
     align-content: center;
     justify-content: center;
 }
-
-
-
-
 
 }
 
