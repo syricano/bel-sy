@@ -43,31 +43,31 @@
     <nav>
       <ul class="nav-list">
         <li>
-          <a href="index.html"  aria-label="go to menu section">Home</a>
+          <a href="index.html"  aria-label="Go to Home Page">Home</a>
         </li>
         <li>
-          <a href="index.html#menu" aria-label="go to menu section">Menu</a>
+          <a href="index.html#menu" aria-label="Go to menu section">Menu</a>
         </li>
         <li>
-          <a href="booking.html" aria-label="go to bookings">Bookings</a>
+          <a href="booking.html" aria-label="Go to bookings">Bookings</a>
         </li>
-        <li><a href="form.html" class="active" aria-label="go to feedback">Feedback</a></li>
+        <li><a href="form.html" class="active" aria-label="Go to feedback">Feedback</a></li>
         <li>
-          <a href="index.html#contact" aria-label="go to contact section">Contact</a>
+          <a href="index.html#contact" aria-label="Go to contact section">Contact</a>
         </li>
       </ul>
     </nav>
   </header>
   <!--Main-->
   <main>
-    <section id="feedback1">
-      <div>
+    <section>
+      
 
         <div>
-          <h3>How did you enjoy your visit?</h3>
+          <span>How did you enjoy your visit?</span>
         </div>
 
-        <div class="feedback-div">
+        <div id="feedback1" class="feedback-div">
           <form method="get" name="feedback" action="thankfeedback.html">
             <div class="two-item">
               <label for="name" class="label-size">Your Name</label>
@@ -80,33 +80,33 @@
             <div class="four-item">
               <div class="two-item">
                 <label for="unsatisfied" >Dissatisfied</label>
-                <input id="unsatisfied" type="radio" name="feedback" required />
+                <input id="unsatisfied" type="radio" name="feedback" required aria-label="Dissatisfied"/>
               </div>
               <div class="two-item">
                 <label for="somehow-satisfied" >Somehow Satisfied</label>
-                <input id="somehow-satisfied" type="radio" name="feedback"  />
+                <input id="somehow-satisfied" type="radio" name="feedback" aria-label="Somehow Satisfied" />
               </div>
               <div class="two-item">
                 <label for="satisfied">Satisfied</label>
-                <input id="satisfied" type="radio" name="feedback" />
+                <input id="satisfied" type="radio" name="feedback" aria-label="Satisfied"/>
               </div>
               <div class="two-item">
                 <label for="very-satisfied" >Very Satisfied</label>
-                <input id="very-satisfied" type="radio" name="feedback" required />
+                <input id="very-satisfied" type="radio" name="feedback" required aria-label="Very Satisfied"/>
               </div>
             </div>
             <div class="two-item">
               <label for="feedback" >What did you like/dislike</label>
-              <textarea id="feedback" name="feedback"  placeholder="leave your comment here" cols="50"
-                rows="30" class="textera-size">
+              <textarea id="feedback" name="feedback"  placeholder="leave your comment here" cols="15"
+                rows="10" class="textera-size">
               </textarea>
             </div>
-            <button type="submit" value="submit" id="feedback-submit" class="label-size">
+            <button type="submit" value="submit" id="feedback-submit" class="label-size" aria-label="submit your feedback">
               Submit your Feedback
             </button>
           </form>
         </div>
-      </div>
+      
     </section>
   </main>
   <!--footer-->
