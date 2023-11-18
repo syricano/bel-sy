@@ -242,7 +242,6 @@ ul {
 
 #booking {
     border-radius: 10px;
-    width: 100%;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -253,24 +252,6 @@ ul {
     padding: 2px;
     flex: 1 0 auto;
 } 
-
-
-
-/* style booking div container*/
-.booking-div {
-    border-radius: 10px;
-    backdrop-filter: blur(5px);
-    padding: 10px;
-    position: relative;
-    height: fit-content;
-    width: fit-content;
-}
-
-
-/*style for h3 booking*/
-#booking h3 {
-    padding: 5px;
-}
 
 /*style for booking form labels */
 #booking label {
