@@ -153,7 +153,6 @@ You can clone the repository to your local machine via copying this link (https:
 
 ### Credits
 
-- To  valeria_aksakova</a> on Freepik the background image was from freepik with her ownerwship of the image.
 - To Fontawsem, the social media footer icons were taken from there.
 - to actual bel'sy restaurant , the images were taken from their facebook page.
 
