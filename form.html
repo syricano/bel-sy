@@ -32,7 +32,7 @@
       <p>The unique Syrian cuisine located in Belgium ( Tournai)</p>
     </div>
     <!--checkbox for nav toggle element-->
-    <input type="checkbox" id="nav-toggle" name="nav-toggle" />
+    <input type="checkbox" id="nav-toggle" name="nav-toggle" required />
     <label for="nav-toggle" class="nav-toggle-label">
       <!--Nav Bar menu show/hide icon-->
       <!--<i class="fa-light fa-bars"></i> -->
@@ -71,16 +71,16 @@
           <form method="get" name="feedback" action="thankfeedback.html">
             <div class="two-item">
               <label for="name" class="label-size">Your Name</label>
-              <input type="text" id="name" name="feedback" placeholder="Your Name here" class="label-size"  />
+              <input type="text" id="name" name="feedback" placeholder="Your Name here" class="label-size" required />
 
               <label for="email"class="label-size" >Your E-mail</label>
-              <input type="email" id="email" name="feedback" placeholder="Your E-mail here" class="label-size" />
+              <input type="email" id="email" name="feedback" placeholder="Your E-mail here" class="label-size" required/>
             </div>
 
             <div class="four-item">
               <div class="two-item">
                 <label for="unsatisfied" >Dissatisfied</label>
-                <input id="unsatisfied" type="radio" name="feedback"  />
+                <input id="unsatisfied" type="radio" name="feedback" required />
               </div>
               <div class="two-item">
                 <label for="somehow-satisfied" >Somehow Satisfied</label>
@@ -92,7 +92,7 @@
               </div>
               <div class="two-item">
                 <label for="very-satisfied" >Very Satisfied</label>
-                <input id="very-satisfied" type="radio" name="feedback" />
+                <input id="very-satisfied" type="radio" name="feedback" required />
               </div>
             </div>
             <div class="two-item">

@@ -61,16 +61,16 @@
                 </h3>
                <form method="get" action="response.html" class="label-size">
                 <label class="label-size">First Name:</label>
-                <input class="label-size" type="text" id="fname" name="booking" placeholder="Your First Name"  >
+                <input class="label-size" type="text" id="fname" name="booking" placeholder="Your First Name" required  >
 
                 <label class="label-size">Last Name:</label>
-                <input class="label-size" type="text" id="lname" name="booking" placeholder="Your Last Name" >
+                <input class="label-size" type="text" id="lname" name="booking" placeholder="Your Last Name" required>
 
                 <label class="label-size">Phone Number:</label>
-                <input class="label-size" type="text" id="phone" name="booking" placeholder="Phone number" >
+                <input class="label-size" type="text" id="phone" name="booking" placeholder="Phone number" required>
 
                 <label class="label-size">E-mail:</label>
-                <input class="label-size" type="email" id="email" name="booking" placeholder="Your Email Address" >
+                <input class="label-size" type="email" id="email" name="booking" placeholder="Your Email Address" required>
                 
                 <label class="label-size">Number of Guests</label>
                 <select>
@@ -85,7 +85,7 @@
                     <option>9</option>
                     <option>10</option>
                 </select>
-                <input type="datetime-local" aria-label=" chose date and time" class="label-size">
+                <input type="datetime-local" aria-label=" chose date and time" class="label-size"required/>
                 <button type="submit" id="booking-submit" name="booking" value="Submit" class="label-size">Request Now</button>
      
 
