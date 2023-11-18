@@ -274,8 +274,7 @@ ul {
 
 /*style for booking form labels */
 #booking label {
-    padding: 5px;
-    margin: 5px;
+    
     display: flex;
     
   
@@ -287,8 +286,8 @@ ul {
 /* style for submit button for booking form*/
 #booking-submit {
     text-align: center;
-    padding: 10px;
-    margin: 5px;
+    height: 2em;
+    width: 8em;
 }
 
 
@@ -377,8 +376,15 @@ input {
 
 
 
-.label-size {
-    margin: 2px;
+
+select {
+    height: 2em;
+    width: 3em;
+    font-size: 1em;
+}
+input.label-size {
+    height: 2em;
+    width: fit-content;
 }
 
 /* style for group of 4 items in feedback form*/
