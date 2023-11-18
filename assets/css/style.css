@@ -378,6 +378,7 @@ iframe {
 
 #contact table {
     text-transform: uppercase;
+    padding: 25px;
 }
 #contact td {
     padding: 1rem;
