@@ -96,7 +96,7 @@ As a website administrator :
 
 ---
 
-### Testing
+## Testing
 
 
 - I tested the website through desktop and mobile on different browser, edge, firefox, chrome, and andriod galaxy browser.
@@ -107,7 +107,7 @@ As a website administrator :
 
 - I tested all the links and confirmed that all of them work as they are suppose to lead.
 
-### Validator testing
+## Validator testing
 
 - ### HTML
 
@@ -142,7 +142,7 @@ As a website administrator :
 ### Unsolved bugs
 - None
 
-### Deployment
+## Deployment
 
 The deployment was done through the following steps:
 
@@ -158,7 +158,7 @@ The deployment was done through the following steps:
 
 The live website is accessible through the link [Bel'Sy Restaurant](https://syricano.github.io/bel-sy/)
 You can clone the repository to your local machine via copying this link (<https://github.com/syricano?tab=repositories>) and paste it into your terminal.
-### Credits
+## Credits
 
 - To Fontawsem, the social media footer icons were taken from there.
 - to actual bel'sy restaurant , the images were taken from their facebook page.
