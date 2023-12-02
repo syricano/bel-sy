@@ -152,6 +152,9 @@ The deployment was done through the following steps:
 4. Heading to Pages.
 5. Selecting Deploy from Branch and Pages to be deployed /Main.
 6. Finally Save button.
+    ![Deployment](assets/images/deployment1.jpg)
+    ![Deployment](assets/images/deployment2.jpg)
+
 
 The live website is accessible through the link [Bel'Sy Restaurant](https://syricano.github.io/bel-sy/)
 You can clone the repository to your local machine via copying this link (<https://github.com/syricano?tab=repositories>) and paste it into your terminal.
