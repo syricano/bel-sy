@@ -1,17 +1,12 @@
-# _Bel-Sy_Restaurant
+# Bel-Sy_Restaurant
 ![Bel-SY Restaurant](assets/images/belsy-main.jpg)
-
-
------
 
 [Bel-Sy Restaurant](https://syricano.github.io/bel-sy/) is a website for Restaurant.
 This is the homepage of Bel'Sy restaurant , located in Tournai Belgium. It helps the potential page visitors to become actual guests/customers, by  giving them  an idea of the cuisine ,food, drinks, service  quality and the environment of the place .  
 The website will target all users , whom are looking for a place in tournai to dine-in.
 The features that will be included in the websites, images of the food, drinks, tables will attract them and give them an imagination idea how the place looks .
 
-
 ## Technologies used:
-
 - HTML
 - CSS
 ---
@@ -31,7 +26,7 @@ As a website administrator :
 - I want to add-delete meals when needed.
 - I want to add- delete images of gallary.
 
-## Features 
+## Features
 
 ### Home Page
 
@@ -39,11 +34,11 @@ As a website administrator :
 
 - positioned on the top of the page .
 - at the link side there are navigation's links:
-    - Home -leads to Home page.
-    - Menu - leads to Menu section.
-    - Booking - leads to Booking page.
-    - Feedback - leads to feedback page.
-    - Contact - leads to Contact section.
+- Home -leads to Home page.
+- Menu - leads to Menu section.
+- Booking - leads to Booking page.
+- Feedback - leads to feedback page.
+- Contact - leads to Contact section.
 - The link of the page that the user currently on is underlined.
 - The navigation bar is clear and easy to understand for the user.
 - The navigation bar is responsive and appears in a form of hamburger menu on mobile devices.
@@ -105,7 +100,11 @@ As a website administrator :
 
 
 - I tested the website through desktop and mobile on different browser, edge, firefox, chrome, and andriod galaxy browser.
-- I used devtools and [Responsive Website design tester](https://responsivedesignchecker.com/).
+- I used devtools and [Responsive Website design tester](https://responsivedesignchecker.com/):
+    ![responsive image1](assets/images/responsive1.jpg)
+    ![Responsive image](assets/images/responsive2.jpg)
+    ![Responsive image](assets/images/responsive3.jpg)
+
 - I tested all the links and confirmed that all of them work as they are suppose to lead.
 
 ### Validator testing
@@ -119,19 +118,20 @@ As a website administrator :
   ![W3C HTML validation](assets/images/response-html-w3.jpg)
   ![W3C HTML validation](assets/images/thankfeedback-html-w3.jpg)
  
-
-
 - ### CSS
 
 - No errors nor warnings found when passing through The official w3c (Jigsaw) validator.
+- ![W3C CSS validation](assets/images/w3css.jpg)
+
 
 - ### Accessibility and performance
 
 - Using lighthouse in devtools i confirmed that the website is fully accessible and responsive to all mobile devices , desktop, except for one size of tablets, performance is 58 but other values are top.
-![light house validation](assets/images/lighthouse.jpg)
-![W3C CSS validation](assets/images/w3css.jpg)
-![responsive image1](assets/images/responsive1.jpg)
-![Responsive image](assets/images/responsive2.jpg)
+![light house validation](assets/images/home-lighthouse.jpg)
+![light house validation](assets/images/book-lighthouse.jpg)
+![light house validation](assets/images/feedback-lighthouse.jpg)
+![light house validation](assets/images/book-response-lighthouse.jpg)
+![light house validation](assets/images/thxfeedback-lighthouse.jpg)
 
 ### Bugs
 
@@ -159,11 +159,3 @@ You can clone the repository to your local machine via copying this link (<https
 
 - To Fontawsem, the social media footer icons were taken from there.
 - to actual bel'sy restaurant , the images were taken from their facebook page.
-
-
-
-
-
-
-
-
