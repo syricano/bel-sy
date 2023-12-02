@@ -48,7 +48,7 @@ As a website administrator :
 - The navigation bar is clear and easy to understand for the user.
 - The navigation bar is responsive and appears in a form of hamburger menu on mobile devices.
 
-![NavBar desktop](assets/images/nav-bar-mobile.jpg)
+![NavBar desktop](assets/images/nav-bar.jpg)
 ![NavBar mobile](assets/images/nav-bar-mobile.jpg)
 ![NavBar Mobile sample](/assets/images/nav-bar-mobile-sample.jpg)
 
@@ -58,7 +58,7 @@ As a website administrator :
 - Home page has about us heading and description to tell the user chef story.
 - There is a gallary images of meals samples.
 - The images are fully grouped responsive to screen size on mobile and desktop.
-![Home Page](assets/images/home.JPG)
+![Home Page](assets/images/home.jpg)
 ![Home page on Mobile](assets/images/home-mobile.jpg)
 
 ---
@@ -89,7 +89,6 @@ As a website administrator :
 - Feedback section has a form allows user to provide name, email , satisfaction radio button, and review.
 -After a feedback is submitted, a thanking message appears, it's stored in separate thankfeedback.html hidden page.
 ![Feedback](assets/images/feedback.jpg)
-![Feedback on mobile](assets/images/feedback-mobile.jpg)
 
 ---
 
@@ -98,7 +97,7 @@ As a website administrator :
 - Contact section has a heading with opening hours, then a table of working hours.
 - User can learn see contact details to get in touch accordingly.
 ![Contact](assets/images/contact.jpg)
-![Contact on mobile](assets/images/contact-mobile.jpg)
+
 
 ---
 
