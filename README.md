@@ -136,7 +136,7 @@ As a website administrator :
 ### Bugs
 
 #### Solved bugs
-- Body contents were not aligned to cover the screen in responsiveness. Then I noticed the reason was the background taking a place, so I removed the backhround image which resolved this bug.
+- Body contents were not aligned to cover the screen in responsiveness. Then I noticed the reason was the background taking a place, so I removed the background image which resolved this bug.
 - 
 
 ### Unsolved bugs
