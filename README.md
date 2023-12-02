@@ -108,19 +108,44 @@ As a website administrator :
 - I used devtools and [Responsive Website design tester](https://responsivedesignchecker.com/).
 - I tested all the links and confirmed that all of them work as they are suppose to lead.
 
+### Validator testing
+
+- ### HTML
+
+- No errors were found when passing through the official w3c validator.
+- ![W3C HTML validation](assets/images/index-html-w3.jpg)
+  ![W3C HTML validation](assets/images/form-html-w3.jpg)
+  ![W3C HTML validation](assets/images/booking-html-w3.jpg)
+  ![W3C HTML validation](assets/images/response-html-w3.jpg)
+  ![W3C HTML validation](assets/images/thankfeedback-html-w3.jpg)
+ 
+
+
+- ### CSS
+
+- No errors nor warnings found when passing through The official w3c (Jigsaw) validator.
+
+- ### Accessibility and performance
+
+- Using lighthouse in devtools i confirmed that the website is fully accessible and responsive to all mobile devices , desktop, except for one size of tablets, performance is 58 but other values are top.
+![light house validation](assets/images/lighthouse.jpg)
+![W3C CSS validation](assets/images/w3css.jpg)
+![responsive image1](assets/images/responsive1.jpg)
+![Responsive image](assets/images/responsive2.jpg)
+
 ### Bugs
 
 #### Solved bugs
-- none
+- Body contents were not aligned to cover the screen in responsiveness. Then I noticed the reason was the background taking a place, so I removed the backhround image which resolved this bug.
 - 
 
 ### Unsolved bugs
-- Nav-bar does not appear after clicking but it requires java or advanced level to resolve.
-- the website is not fully responsive for the size 1024 x 600 px
+- None
 
 ### Deployment
 
 The deployment was done through the following steps:
+
 1. Open github and heading to repositories section.
 2. select Bel'Sy REPO.
 3. Heading ot settings.
@@ -129,27 +154,7 @@ The deployment was done through the following steps:
 6. Finally Save button.
 
 The live website is accessible through the link [Bel'Sy Restaurant](https://syricano.github.io/bel-sy/)
-You can clone the repository to your local machine via copying this link (https://github.com/syricano?tab=repositories) and paste it into your terminal.
-
-### Validator testing
-
-- ### HTML
-- No errors were found when passing through the official w3c validator, but only warnings.
-
-- ### CSS
-- No errors nor warnings found when passing through The official w3c (Jigsaw) validator.
-- ### Accessibility and performance 
-- Using lighthouse in devtools i confirmed that the website is fully accessible and responsive to all mobile devices , desktop, except for one size of tablets, performance is 58 but other values are top.
-![light house validation](assets/images/lighthouse.jpg) 
-![W3C HTML validation](assets/images/w3html1.jpg)
-![W3C HTML validation](assets/images/w3html2.jpg)
-![W3C CSS validation](assets/images/w3css.jpg)
-![responsive image1](assets/images/responsive1.jpg)
-![Responsive image](assets/images/responsive2.jpg)
-
-### Deployment 
-- The website was deployed to Github pages and can be accessed by the link: [Bel-Sy}](https://syricano.github.io/bel-sy/)
-
+You can clone the repository to your local machine via copying this link (<https://github.com/syricano?tab=repositories>) and paste it into your terminal.
 ### Credits
 
 - To Fontawsem, the social media footer icons were taken from there.
